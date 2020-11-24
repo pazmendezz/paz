@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<style id="fsb-inline-css" type="text/css">.navbar-nav:not([data-sm-skip]) .dropdown-item{white-space:normal}:root{--blue:#2880BA;--indigo:#6610f2;--purple:#4f0090;--pink:#e83e8c;--red:#ff0000;--orange:#D34600;--yellow:#ffc107;--green:#2d9505;--teal:#20c997;--cyan:#14abb1;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#2880BA;--secondary:#D34600;--success:#2d9505;--info:#14abb1;--warning:#ffc107;--danger:#ff0000;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:667px;--breakpoint-md:768px;--breakpoint-lg:1024px;--breakpoint-lg-xl:1366px;--breakpoint-xl:1920px;--font-family-sans-serif:"PT Sans Narrow",sans-serif;--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%}article,footer,header,main,nav{display:block}body{margin:0;font-family:"PT Serif",serif;font-size:1rem;font-weight:400;line-height:1.4;color:#000;text-align:left;background-color:#fff}h1,h2,h5{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}a{color:#2880ba;text-decoration:none;background-color:transparent}a:not([href]){color:inherit;text-decoration:none}img{vertical-align:middle;border-style:none}label{display:inline-block;margin-bottom:.5rem}button{border-radius:0}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button{text-transform:none}[type=button],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}input[type=checkbox]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h1,h2,h5{margin-bottom:.5rem;font-family:"PT Sans Narrow",sans-serif;font-weight:700;line-height:1.2}h1{font-size:2.488em}h2{font-size:2.074em}h5{font-size:1.2em}.img-fluid{max-width:100%;height:auto}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;max-width:440px}.container{max-width:440px}.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-12,.col-md-12,.col-md-3,.col-md-6,.col-md-8{position:relative;width:100%;padding-right:15px;padding-left:15px}.col-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.form-control{display:block;width:100%;height:calc(1.4em + .75rem + 2px);padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.4;color:#495057;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:.25rem}.form-control::-ms-expand{background-color:transparent;border:0}.form-control:-moz-focusring{color:transparent;text-shadow:0 0 0 #495057}.form-control::-webkit-input-placeholder{color:#6c757d;opacity:1}.form-control::-moz-placeholder{color:#6c757d;opacity:1}.form-control:-ms-input-placeholder{color:#6c757d;opacity:1}.form-control::-ms-input-placeholder{color:#6c757d;opacity:1}.form-group{margin-bottom:1rem}.form-check{position:relative;display:block;padding-left:1.25rem}.form-check-input{position:absolute;margin-top:.3rem;margin-left:-1.25rem}.form-check-label{margin-bottom:0}.invalid-feedback{display:none;width:100%;margin-top:.25rem;font-size:80%;color:red}.fade:not(.show){opacity:0}.collapse:not(.show){display:none}.dropdown{position:relative}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#000;text-align:left;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;font-weight:400;color:#212529;text-align:inherit;white-space:nowrap;background-color:transparent;border:0}.nav-link{display:block;padding:.5rem 1rem}.navbar{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:.5rem 1rem}.navbar .container{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.325rem;padding-bottom:.325rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap}.navbar-nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none}.navbar-nav .nav-link{padding-right:0;padding-left:0}.navbar-nav .dropdown-menu{position:static;float:none}.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:.25rem}.navbar-toggler-icon{display:inline-block;width:1.5em;height:1.5em;vertical-align:middle;content:"";background:no-repeat center center;background-size:100% 100%}.navbar-light .navbar-brand{color:rgba(255,255,255,.9)}.navbar-light .navbar-nav .nav-link{color:#fff}.navbar-light .navbar-toggler{color:#fff;border-color:rgba(255,255,255,0)}.modal{position:fixed;top:0;left:0;z-index:1050;display:none;width:100%;height:100%;overflow:hidden;outline:0}.modal-dialog{position:relative;width:auto;margin:.5rem}.modal.fade .modal-dialog{-webkit-transform:translate(0,-50px);transform:translate(0,-50px)}.modal-dialog-centered{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:calc(100% - 1rem)}.modal-dialog-centered::before{display:block;height:calc(100vh - 1rem);height:-webkit-min-content;height:-moz-min-content;height:min-content;content:""}.modal-content{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.2);border-radius:.3rem;outline:0}.modal-title{margin-bottom:0;line-height:1.4}.modal-body{position:relative;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;padding:1rem}.spinner-border{display:inline-block;width:2rem;height:2rem;vertical-align:text-bottom;border:.25em solid currentColor;border-right-color:transparent;border-radius:50%;-webkit-animation:spinner-border .75s linear infinite;animation:spinner-border .75s linear infinite}.spinner-border-sm{width:1rem;height:1rem;border-width:.2em}.clearfix::after{display:block;clear:both;content:""}.d-none{display:none!important}.d-block{display:block!important}.justify-content-end{-webkit-box-pack:end!important;-ms-flex-pack:end!important;justify-content:flex-end!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.mt-3{margin-top:1rem!important}.mb-3{margin-bottom:1rem!important}.mx-5{margin-right:3rem!important}.mx-5{margin-left:3rem!important}.mr-auto,.mx-auto{margin-right:auto!important}.mx-auto{margin-left:auto!important}.text-center{text-align:center!important}article{-ms-word-wrap:break-word;word-wrap:break-word}.aligncenter{display:block;margin:1em auto}.fit-redesign-site-header.navbar.navbar-light{padding:0;-webkit-box-shadow:0 6px 4px 0 rgba(0,0,0,.3);box-shadow:0 6px 4px 0 rgba(0,0,0,.3)}.fit-redesign-site-header.navbar.navbar-light .site-title{margin-bottom:0}.fit-redesign-site-header.navbar.navbar-light .site-title img{min-width:250px;height:35px}.fit-redesign-site-header.navbar.navbar-light .navbar-toggler{background-color:#2880ba;-webkit-box-shadow:none;box-shadow:none;border-radius:0;color:#fff;height:72px;min-width:44px}.fit-redesign-site-header.navbar.navbar-light .navbar-toggler .navbar-toggler-icon{width:.9em;height:.9em}.fit-redesign-site-header.navbar.navbar-light .navbar-nav>li{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;margin-bottom:15px}.fit-redesign-site-header.navbar.navbar-light .navbar-nav>li.dropdown{border-top:1px solid #fff;border-bottom:1px solid #fff}.fit-redesign-site-header.navbar.navbar-light .navbar-nav>li a.nav-link{padding:.25rem;text-decoration:none;font-size:1.3rem}.fit-redesign-site-header.navbar.navbar-light .navbar-collapse{background-color:#2880ba;padding:20px 50px}.fit-redesign-site-header.navbar.navbar-light ul.dropdown-menu{display:block;border-radius:0;border-width:0;background-color:#2880ba}.fit-redesign-site-header.navbar.navbar-light ul.dropdown-menu li a.dropdown-item{padding:.25rem;text-decoration:none;color:#fff}#fit-header-subscribe-desktop{display:none}#fit-header-subscribe-mobile{display:block;padding:3px 5px;text-align:center;width:100%}#fit-header-subscribe-mobile span{color:#000}#fit-header-subscribe-mobile span:after{content:"";position:absolute;background-size:12px 12px;border-radius:20px;display:inline-block;width:20px;height:20px;margin-left:2px}#fit-header-subscribe-modal .modal-content{border-radius:0}#fit-header-subscribe-modal .close{background:0 0;color:#000;text-shadow:none;-webkit-box-shadow:none;box-shadow:none;line-height:1em;font-size:2rem;padding:1rem 1rem;margin:-1rem -1rem -1rem auto;position:absolute;top:15px;right:15px}#fit-header-subscribe-modal label{font-size:17px}.site-inner{padding:4rem 0;padding-top:24px}.entry .entry-title{margin-bottom:16px}.single .entry{margin-bottom:2rem}.fit-redesign-breadcrumbs p{font-family:"PT Sans Caption",sans-serif;font-weight:700;font-size:.8em}.fit-redesign-breadcrumbs p a{color:#000;text-decoration:none}.content-disclosure{font-size:75%;background:#dbdbdb;line-height:1.2;padding:10px;margin:10px 0 10px 0}#fit-advertiser-disclosure .modal-content{border-radius:0;background:#2880ba;border-color:#2880ba;color:#fff}#fit-advertiser-disclosure .modal-content a{color:#fff}#fit-advertiser-disclosure .modal-title{margin-bottom:20px}body.single main.content .entry-content h2{font-weight:700}.related-posts img{max-width:100%;height:auto}.footer-widgets .site-footer-logo img{width:65px;margin-bottom:20px;margin-left:auto;margin-right:auto}img{max-width:100%;height:auto}.wrap{max-width:1240px;margin:0 auto}.text-smaller{font-size:70%}iframe{max-width:100%}.button,button,input[type=submit]{line-height:20px;padding-top:10px;padding-bottom:10px}.button,button,input[type=submit]{background-color:#d34600;border:none;border-radius:4px;-webkit-box-shadow:none;box-shadow:none;color:#fff;display:inline-block;font-family:"PT Sans Caption",sans-serif;font-size:15px;font-weight:300;min-width:130px;padding:11px 20px;text-align:center;text-decoration:none;width:auto;-webkit-appearance:none;display:inline-block}.button.button-invert,button.button-invert{color:#fff;text-decoration:none}.button.button-invert,button.button-invert{background-color:#2880ba}button{font-family:"PT Sans Caption",sans-serif}input[type=submit]{font-family:"PT Sans Caption",sans-serif}button.not-button{background:0 0;display:inline;font-weight:700;color:#000;padding:0}button.link{color:#2880ba;text-decoration:underline}h1,h2,h5{margin-bottom:16px}h3 a{font-family:"PT Sans Narrow",sans-serif}a{font-family:"PT Sans Caption",sans-serif;font-weight:700;text-decoration:underline}.entry-content p{margin-bottom:26px}ul li.nav-item{padding-bottom:0}a.nav-link{text-decoration:none}.fit-redesign-author-box{font-family:"PT Sans Caption",sans-serif;font-size:.8rem;min-height:45px;display:block}.fit-redesign-author-box p{font-size:.8rem}.fit-redesign-author-box-inner{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:20px}.fit-redesign-author-box-avatar{width:45px;-ms-flex-preferred-size:auto;flex-basis:auto;-ms-flex-negative:0;flex-shrink:0}.fit-redesign-author-box .avatar{border-radius:50%}.fit-redesign-author-box .fit-redesign-author-box-title{margin-left:10px;margin-bottom:0}.author-box-inner .avatar{border-radius:50%;position:relative;top:auto;left:auto;float:none}@media (min-width:667px){.container{max-width:540px}.container{max-width:540px}.modal-dialog{max-width:500px;margin:1.75rem auto}.modal-dialog-centered{min-height:calc(100% - 3.5rem)}.modal-dialog-centered::before{height:calc(100vh - 3.5rem);height:-webkit-min-content;height:-moz-min-content;height:min-content}.aligncenter{margin-right:auto;margin-left:auto}img.aligncenter{margin:5px auto}body{font-size:17.07px}li,p{font-size:16px}}@media (min-width:768px){.container{max-width:720px}.container{max-width:720px}.col-md-3{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-md-8{-webkit-box-flex:0;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%}.col-md-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.offset-md-3{margin-left:25%}.d-md-block{display:block!important}.fit-redesign-author-box{margin-left:33.3333333%;padding-left:15px}.footer-widgets .site-footer-logo img{margin-left:0;margin-right:0}body{font-size:18.22px}li,p{font-size:17.07px}.author-box-inner .avatar{position:absolute;top:0;left:0}}@media (min-width:1024px){.container{max-width:1080px}.container{max-width:1080px}.navbar-expand-lg{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.navbar-expand-lg .navbar-nav{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-lg>.container{-ms-flex-wrap:nowrap;flex-wrap:nowrap}.navbar-expand-lg .navbar-collapse{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important;-ms-flex-preferred-size:auto;flex-basis:auto}.navbar-expand-lg .navbar-toggler{display:none}.modal-lg{max-width:800px}.mx-lg-5{margin-right:3rem!important}.mx-lg-5{margin-left:3rem!important}.px-lg-5{padding-right:3rem!important}.px-lg-5{padding-left:3rem!important}.fit-redesign-site-header.navbar.navbar-light{padding-left:10px;padding-right:10px}.fit-redesign-site-header.navbar.navbar-light .navbar-collapse{background-color:#fff;padding-right:0}.fit-redesign-site-header.navbar.navbar-light .navbar-collapse .navbar-nav{position:relative}.fit-redesign-site-header.navbar.navbar-light .navbar-nav>li{border-top:none;border-bottom:none;margin-bottom:0}.fit-redesign-site-header.navbar.navbar-light ul.dropdown-menu{display:none;border-top:18px solid #fff;background-color:#2880ba;-webkit-column-count:2;-moz-column-count:2;column-count:2;min-width:500px;right:0;left:auto}.fit-redesign-site-header.navbar.navbar-light ul.dropdown-menu li a.dropdown-item{padding:.25rem 1.5rem;font-size:1rem}.fit-redesign-site-header.navbar.navbar-light li.nav-item a.nav-link{font-size:1rem;padding-left:1rem;padding-right:1rem;color:#000}.fit-redesign-site-header.navbar.navbar-light li.nav-item:last-of-type{padding-right:0}.fit-redesign-site-header.navbar.navbar-light li.nav-item.dropdown{position:initial;padding-right:1em}.fit-redesign-site-header.navbar.navbar-light li.nav-item.dropdown .nav-link:after{content:"";display:inline-block;width:10px;height:10px;margin-left:0;-webkit-transform:translate(10px,-2px);transform:translate(10px,-2px)}#fit-header-subscribe-desktop{display:block}#fit-header-subscribe-mobile{display:none}#fit-header-subscribe-modal .form-check-input{margin-top:.6rem}body{font-size:19.44px}li,p{font-size:17.07px}}@media (min-width:1366px){.container{max-width:1300px}.container{max-width:1300px}body{font-size:20.74px}li,p{font-size:19.44px}}@media (max-width:1023.98px){.navbar-expand-lg>.container{padding-right:0;padding-left:0}.fit-redesign-site-header.navbar.navbar-light .wrap{max-width:100%}.fit-redesign-site-header.navbar.navbar-light .navbar-nav li:last-of-type{-webkit-box-ordinal-group:1;-ms-flex-order:0;order:0}}@-webkit-keyframes spinner-border{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spinner-border{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}</style>
+
+<title>How to Start a Small Business at Home</title>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="canonical" href="https://fitsmallbusiness.com/how-to-start-a-home-business/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How to Start a Small Business at Home" />
+<meta property="og:description" content="Many popular businesses, such as Microsoft and Apple, started their journey in a garage. If you have similar aspirations, start the process by learning how to start a small business at home. The process is similar to opening a brick-and-mortar business—sometimes with lower startup costs. Some of the steps are different, such as the need..." />
+<meta property="og:url" content="https://fitsmallbusiness.com/how-to-start-a-home-business/" />
+<meta property="og:site_name" content="Fit Small Business" />
+<meta property="article:published_time" content="2019-12-11T09:00:29+00:00" />
+<meta property="article:modified_time" content="2020-11-18T16:34:16+00:00" />
+<meta property="og:image" content="https://fitsmallbusiness.com/wp-content/uploads/2019/12/FeatureImage_How_to_Start_a_Small_Business_at_Home.jpg" />
+<meta property="og:image:width" content="900" />
+<meta property="og:image:height" content="600" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@blakecstockton" />
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="Blake Stockton">
+<meta name="twitter:label2" content="Est. reading time">
+<meta name="twitter:data2" content="19 minutes">
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><link rel="preconnect" href="https://connect.facebook.net" crossorigin><link rel='preload' as='style' onload="this.onload=null;this.rel='stylesheet'" id='fsb-css' href='https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/assets/css/app.css?ver=0.4.8' type='text/css' media='all' /><link rel='preload' as='style' onload="this.onload=null;this.rel='stylesheet'" id='auth0-widget' href='https://fitsmallbusiness.com/wp-content/plugins/auth0/assets/css/main.css?ver=5.4.4' type='text/css' media='all' /><link rel='preload' as='style' onload="this.onload=null;this.rel='stylesheet'" id='fit-campaigns-public-css' href='https://fitsmallbusiness.com/wp-content/plugins/fit-campaign-plugin/assets/css/fit-campaigns-public.css?ver=0.6.8' type='text/css' media='screen' /><link rel='preload' as='style' onload="this.onload=null;this.rel='stylesheet'" id='fit-database-plugin' href='https://fitsmallbusiness.com/wp-content/plugins/fit-database-plugin/public/css/fit-database-plugin-public.css?ver=1.0.2' type='text/css' media='all' /><link rel='preload' as='style' onload="this.onload=null;this.rel='stylesheet'" id='fit-table-public' href='https://fitsmallbusiness.com/wp-content/plugins/fit-table-plugin/assets/css/table-public.css?ver=0.2.5.3' type='text/css' media='all' /><link rel='preload' as='style' onload="this.onload=null;this.rel='stylesheet'" id='fsb-gfont-css' href='https://fonts.googleapis.com/css?family=PT+Sans+Caption%3A400%2C700%7CPT+Sans+Narrow%3A700%7CPT+Serif%3A400%2C700&#038;display=swap&#038;ver=5.4.4' type='text/css' media='all' /><link rel='preload' as='style' onload="this.onload=null;this.rel='stylesheet'" id='fsb-select2' href='https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/assets/css//select2.min.css?ver=0.4.8' type='text/css' media='all' /><script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/plugins/fit-database-plugin/public/js/fit-database-plugin-public.js?ver=1.0.2'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/plugins/fit-table-plugin/assets/js/dist/fit-table-front-select.min.js?ver=0.2.5.3'></script>
+<link rel='https://api.w.org/' href='https://fitsmallbusiness.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://fitsmallbusiness.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffitsmallbusiness.com%2Fhow-to-start-a-home-business%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://fitsmallbusiness.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffitsmallbusiness.com%2Fhow-to-start-a-home-business%2F&#038;format=xml" />
+<meta name="sailthru.title" content="How to Start a Small Business at Home" /><meta name="sailthru.description" content="Many popular businesses, such as Microsoft and Apple, started their journey in a garage. If you have similar aspirations, start the process by learning how to start a small business at home. The process is similar to opening a brick-and-mortar business—sometimes with lower startup costs. Some of the steps are different, such as the need..." /><meta name="sailthru.date" content="2019-12-11 09:00:29" /><meta name="sailthru.author" content="Blake Stockton" /><meta name="sailthru.author_url" content="https://fitsmallbusiness.com/author/bstocktonfitsmallbusiness-com/" /><meta name="sailthru.image.full" content="https://fitsmallbusiness.com/wp-content/uploads/2019/12/FeatureImage_How_to_Start_a_Small_Business_at_Home.jpg" /><meta name="sailthru.image.thumb" content="https://fitsmallbusiness.com/wp-content/uploads/2019/12/FeatureImage_How_to_Start_a_Small_Business_at_Home-150x150.jpg" /><meta name="sailthru.tags" content="Starting a Business, General Business Ideas" /><meta name="sailthru.primary_category" content="Starting a Business" /><meta name="ahrefs-site-verification" content="2f45b86cf7fcfb21161f192c2fb893d9c3dce383449e1676bc3384836da38198">
+<style type="text/css">
+.fresh-about--writer-img img { top:0; }
+#ninja_forms_form_1642_response_msg { color:#fff!important; }
+.fit-global-alert {
+    background-color: #DB5C56 !important;
+}</style>
+<meta name="p:domain_verify" content="07d95dacb968774fc7766d788e77c0dc" />
+
+<script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','__gaTracker');
+   __gaTracker('create', 'UA-41686408-1', 'auto', {'allowLinker':true});
+   __gaTracker('set', 'forceSSL', true);
+   __gaTracker('require', 'displayfeatures');
+   __gaTracker('require', 'linker');
+	__gaTracker('linker:autoLink', ['reviews.fitsmallbusiness.com']);
+        __gaTracker('set', 'dimension2', 'Starting a Business');
+     __gaTracker('set', 'dimension5', 'How To,Starting a Business');
+     __gaTracker('set', 'dimension6', 'How to Start a Business');
+          __gaTracker('set', 'dimension1', "Blake Stockton");
+          __gaTracker('set', 'dimension4', '2019-12-11');
+        __gaTracker('require', 'GTM-PCBKS4W');
+   __gaTracker('send', 'pageview');
+ </script>
+
+<script>
+!function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+qp('init', 'f29a2664ae53481b841b37483e1b79ef');
+qp('track', 'ViewContent');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/f29a2664ae53481b841b37483e1b79ef/pixel?tag=ViewContent&noscript=1"/></noscript>
+
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","headline":"How to Start a Small Business at Home","mainEntityOfPage":"https://fitsmallbusiness.com/how-to-start-a-home-business/","publisher":{"@type":"Organization","name":"Fit Small Business","url":"https://fitsmallbusiness.com","logo":{"@type":"ImageObject","url":"https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/images/logo.png","width":"395px","height":"58px"}},"url":"https://fitsmallbusiness.com/how-to-start-a-home-business/","datePublished":"2019-12-11","dateModified":"2020-11-18","description":"","image":"https://fitsmallbusiness.com/wp-content/uploads/2019/12/FeatureImage_How_to_Start_a_Small_Business_at_Home.jpg","genre":"Starting a Business","author":[{"@type":"Person","name":"Blake Stockton","url":"https://fitsmallbusiness.com/author/bstocktonfitsmallbusiness-com/","image":"https://secure.gravatar.com/avatar/516decaa1838016078daa93a4ddad01a?s=96&d=blank&r=g"}]}</script><meta class="swiftype" name="st_search_description" data-type="string" content="Many popular businesses, such as Microsoft and Apple, started their journey in a garage. If you have similar aspirations, start the process by learning how to start a small business at home. The process is similar to opening a brick-and-mortar business—sometimes with lower startup costs. Some of the steps are different, such as the need..." /><meta class="swiftype" name="st_featured_image" data-type="enum" content="https://fitsmallbusiness.com/wp-content/uploads/2019/12/FeatureImage_How_to_Start_a_Small_Business_at_Home.jpg" /><meta class="swiftype" name="st_author" data-type="string" content="Blake Stockton" /><meta class="swiftype" name="st_categories" data-type="string" content="How To" /><meta class="swiftype" name="st_categories" data-type="string" content="How to Start a Business" /><meta class="swiftype" name="st_categories" data-type="string" content="Starting a Business" /><link rel="icon" href="https://fitsmallbusiness.com/wp-content/uploads/2015/12/cropped-favicon-5121-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://fitsmallbusiness.com/wp-content/uploads/2015/12/cropped-favicon-5121-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://fitsmallbusiness.com/wp-content/uploads/2015/12/cropped-favicon-5121-180x180.png" />
+<meta name="msapplication-TileImage" content="https://fitsmallbusiness.com/wp-content/uploads/2015/12/cropped-favicon-5121-270x270.png" />
+<style type="text/css" id="wp-custom-css">
+			.tablepress thead th, .tablepress tfoot th {
+background-color: #d9edf7 !important;
+	font-size: 16px;
+}
+
+@media (min-width: 800px) {
+.fsb-floating-header .button {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+}
+
+.menu-business-credit-cards-menu-container .current-menu-item a {
+	color:#0085c9!important;
+	font-weight:normal!important;
+}
+
+
+iframe#twitter-widget-0{
+	height:400px !important;
+}
+
+	@media(min-width:800px) and (max-width: 1350px){
+		
+body.single-post.content-sidebar main.content.col-md-8 article.entry{
+		padding-left: 60px;
+	}
+}
+
+.fit-omv2-button-no { background:#666!important; border-color:#666!important; }
+
+.postid-779472 #fit_sailthru_related_posts { display:none!important; }
+
+.postid-779472 .related-posts { display:none!important; }		</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="post-template-default single single-post postid-164792 single-format-standard full-width-content genesis-breadcrumbs-hidden genesis-footer-widgets-visible"><iframe src="https://go.performi.com/track/view/?p=%2Fhow-to-start-a-home-business%2F" data-no-lazy="1" style="display: none;"></iframe><div class="site-container"> <button id="fit-header-subscribe-mobile" class="not-button" data-target="#fit-header-subscribe-modal" data-toggle="modal"><span>Subscribe to our Newsletters</span></button>
+<header class="site-header navbar navbar-light navbar-expand-lg fit-redesign-site-header">
+<div class="wrap container">
+<div class="navbar-brand">
+<div class="site-title"><a href="https://fitsmallbusiness.com/"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="FitSmallBusiness" class="img-fluid d-block mx-auto" data-lazy-src="https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/images/logo-2020.svg" /><noscript><img src="https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/images/logo-2020.svg" alt="FitSmallBusiness" class="img-fluid d-block mx-auto" /></noscript></a></div>
+</div>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-navbar" aria-controls="header-navbar" aria-expanded="false" aria-label="Toggle navigation">
+<div class="sr-only">Menu</div>
+<span class="navbar-toggler-icon"></span>
+</button>
+<div id="header-navbar" class="collapse navbar-collapse justify-content-end">
+<nav class="nav-header">
+<ul id="menu-header-menu" class="navbar-nav mr-auto"><li id="menu-item-75806" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75806 nav-item dropdown"><a title="Categories" class="nav-link">Categories</a>
+<ul role="menu" class=" dropdown-menu">
+<li id="menu-item-584154" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584154 nav-item"><a title="Accounting" href="https://fitsmallbusiness.com/accounting/" class="dropdown-item">Accounting</a></li>
+<li id="menu-item-584153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584153 nav-item"><a title="Banking" href="https://fitsmallbusiness.com/banking/" class="dropdown-item">Banking</a></li>
+<li id="menu-item-584150" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584150 nav-item"><a title="Business Law" href="https://fitsmallbusiness.com/business-law/" class="dropdown-item">Business Law</a></li>
+<li id="menu-item-584160" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584160 nav-item"><a title="Business Travel" href="https://fitsmallbusiness.com/business-travel/" class="dropdown-item">Business Travel</a></li>
+<li id="menu-item-584156" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584156 nav-item"><a title="Buying and Selling a Business" href="https://fitsmallbusiness.com/buying-and-selling-a-business/" class="dropdown-item">Buying and Selling a Business</a></li>
+<li id="menu-item-584151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584151 nav-item"><a title="Careers" href="https://fitsmallbusiness.com/careers/" class="dropdown-item">Careers</a></li>
+<li id="menu-item-584161" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584161 nav-item"><a title="Credit Cards" href="https://fitsmallbusiness.com/credit-cards/" class="dropdown-item">Credit Cards</a></li>
+<li id="menu-item-584152" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584152 nav-item"><a title="Financing" href="https://fitsmallbusiness.com/financing/" class="dropdown-item">Financing</a></li>
+<li id="menu-item-584144" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584144 nav-item"><a title="Human Resources" href="https://fitsmallbusiness.com/human-resources/" class="dropdown-item">Human Resources</a></li>
+<li id="menu-item-584159" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584159 nav-item"><a title="Insurance" href="https://fitsmallbusiness.com/insurance/" class="dropdown-item">Insurance</a></li>
+<li id="menu-item-584142" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584142 nav-item"><a title="Marketing" href="https://fitsmallbusiness.com/marketing/" class="dropdown-item">Marketing</a></li>
+<li id="menu-item-584149" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584149 nav-item"><a title="Office" href="https://fitsmallbusiness.com/office/" class="dropdown-item">Office</a></li>
+<li id="menu-item-584146" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584146 nav-item"><a title="Online Business" href="https://fitsmallbusiness.com/online-business/" class="dropdown-item">Online Business</a></li>
+<li id="menu-item-584155" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584155 nav-item"><a title="Personal Finance" href="https://fitsmallbusiness.com/personal-finance/" class="dropdown-item">Personal Finance</a></li>
+<li id="menu-item-584147" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584147 nav-item"><a title="Project Management" href="https://fitsmallbusiness.com/project-management/" class="dropdown-item">Project Management</a></li>
+<li id="menu-item-584158" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584158 nav-item"><a title="Real Estate Investing" href="https://fitsmallbusiness.com/real-estate-investing/" class="dropdown-item">Real Estate Investing</a></li>
+<li id="menu-item-584143" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584143 nav-item"><a title="Real Estate" href="https://fitsmallbusiness.com/real-estate/" class="dropdown-item">Real Estate</a></li>
+<li id="menu-item-584145" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584145 nav-item"><a title="Retail" href="https://fitsmallbusiness.com/retail/" class="dropdown-item">Retail</a></li>
+<li id="menu-item-584141" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584141 nav-item"><a title="Sales" href="https://fitsmallbusiness.com/sales/" class="dropdown-item">Sales</a></li>
+<li id="menu-item-584148" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-584148 nav-item active"><a title="Starting a Business" href="https://fitsmallbusiness.com/starting-a-business/" class="dropdown-item">Starting a Business</a></li>
+<li id="menu-item-584157" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-584157 nav-item"><a title="Taxes" href="https://fitsmallbusiness.com/taxes/" class="dropdown-item">Taxes</a></li>
+</ul>
+</li>
+<li id="menu-item-75818" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75818 nav-item"><a title="About" href="https://fitsmallbusiness.com/about-us/" class="nav-link">About</a></li>
+<li id="menu-item-726273" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-726273 nav-item"><a title="Search" href="https://fitsmallbusiness.com/?s=" class="nav-link">Search</a></li>
+</ul> </nav>
+</div>
+<button id="fit-header-subscribe-desktop" class="btn btn-primary button button-invert" data-target="#fit-header-subscribe-modal" data-toggle="modal">Subscribe</button>
+</div>
+</header>
+<div class="site-inner"><div class="wrap container"><div class="content-sidebar-wrap row"><main class="content col-md-12"><article class="post-164792 post type-post status-publish format-standard has-post-thumbnail category-how-to category-how-to-start-a-business category-starting-a-business entry row" aria-label="How to Start a Small Business at Home"><header class="entry-header col-md-8 offset-md-3"><div class="fit-advertiser-button d-block mb-3">
+<button data-toggle="modal" data-target="#fit-advertiser-disclosure" class="not-button link text-smaller">Advertiser Disclosure</button>
+</div>
+<div class="fit-redesign-breadcrumbs">
+<p><a href="https://fitsmallbusiness.com/starting-a-business/">Starting a Business</a> &gt; <a href="https://fitsmallbusiness.com/starting-a-business/how-to-start-a-business/">How to Start a Business</a> | <a href="https://fitsmallbusiness.com/how-to/">How To</a></p></div>
+<h1 class="entry-title">How to Start a Small Business at Home</h1>
+<div class="content-disclosure">
+We have partnerships with some of the companies featured in this article. When you click on links to those sites, our company makes money. These partnerships help support our site so we can keep bringing you the best answers to your questions.
+</div>
+</header><div class="col-md-3">
+<div class="fit-redesign-author-box">
+<div class="fit-redesign-author-box-inner"><a href="https://fitsmallbusiness.com/author/bstocktonfitsmallbusiness-com/" class="fit-redesign-author-box-avatar"><img width="45" height="45" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2045%2045'%3E%3C/svg%3E" class="avatar avatar-45 wp-image-927859" alt="" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-45x45.jpg 45w, https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton.jpg 150w" data-lazy-sizes="(max-width: 45px) 100vw, 45px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-45x45.jpg" /><noscript><img width="45" height="45" src="https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-45x45.jpg" class="avatar avatar-45 wp-image-927859" alt="" srcset="https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-45x45.jpg 45w, https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton.jpg 150w" sizes="(max-width: 45px) 100vw, 45px" /></noscript></a><p class="fit-redesign-author-box-title">By <a href="https://fitsmallbusiness.com/author/bstocktonfitsmallbusiness-com/">Blake Stockton</a> on December 11, 2019</p></div><div class="d-none d-md-block"><p>Blake is an award-winning consultant, writer, and speaker. As a consultant, he helped over 700 biz owners start and grow their business. His expertise is featured across Fit Small Business in <a href="https://fitsmallbusiness.com/starting-a-business/">starting a business</a> content.</p>
+</div></div>
+<div class="fit-redesign-cluster-post">
+<p>This article is part of a larger series on <a href="https://fitsmallbusiness.com/how-to-start-your-own-business/">Starting a Business</a>.</p></div></div><div class="entry-content clearfix col-md-8"><p>Many popular businesses, such as Microsoft and Apple, started their journey in a garage. If you have similar aspirations, start the process by learning how to start a small business at home. The process is similar to opening a brick-and-mortar business—sometimes with lower startup costs. Some of the steps are different, such as the need to obtain an at-home business license and learning online marketing.</p>
+<p>Here are 10 steps for starting a business from home:</p>
+<h2>1. Come Up With a Home Business Idea</h2>
+<p>If you don’t already have an idea, the first step to coming up with an idea can be the hardest step. Many entrepreneurs know exactly what type of at-home business they’re going to open. For example, someone who has worked in an industry for several decades can leverage their knowledge and network to do consulting. Other entrepreneurs may know they want to create jewelry and <a href="https://fitsmallbusiness.com/how-to-sell-on-etsy/">sell it on Etsy</a>.</p>
+<p>If you’re one of the entrepreneurs who know you want to create a business but don’t have an idea yet, there are steps you can take to <a href="https://fitsmallbusiness.com/how-to-come-up-with-a-business-idea/">figure out your perfect business</a>. Mostly, business success comes from skills you already have versus skills you will build as the business operates.</p>
+<blockquote><p><img class="alignright wp-image-934533 size-full img-fluid" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20200'%3E%3C/svg%3E" alt="Justin Kerby Founder Cave Social" width="200" height="200" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px.jpg 200w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px-150x150.jpg 150w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px-45x45.jpg 45w" data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px.jpg" /><noscript><img class="alignright wp-image-934533 size-full img-fluid" src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px.jpg" alt="Justin Kerby Founder Cave Social" width="200" height="200" srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px.jpg 200w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px-150x150.jpg 150w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Justin_Kerby_Cave_Social_200px-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" /></noscript>“Commencement anxiety runs rampant among aspiring entrepreneurs, and pushing ‘go’ often gets put off due to a fear of failure. People will obsess over what to name their company, or what URL to use—when ultimately, it&#8217;s your work ethic, drive, and passion that determine whether or not you&#8217;ll be successful. Don&#8217;t put up roadblocks. Begin today!”</p>
+<p>&#8211; Justin Kerby, Founder, Cave Social</p></blockquote>
+<h3>Leverage Your Competencies</h3>
+<p>A great way to come up with a business idea is to brainstorm about your existing skills. Focus on identifying the skills that are unique to you or that you particularly excel at. Evaluating your previous professional experiences should give you a hint. Think of instances in which you were able to provide value to the organization for which you worked: do you notice any trends?</p>
+<p>Identify certain skills that have enabled you to both produce results for someone and generate income. You can also look at your hobbies. Do you possess certain talents or skills that can be valuable to a group of people? Your business is much less likely to fail if you’re focusing on what you’re good at.</p>
+<p>For example, a retail store manager may possess a combination of these skills:</p>
+<ul>
+<li>Sales</li>
+<li>Customer service</li>
+<li>Inventory tracking</li>
+<li>Organization skills</li>
+<li>Team management</li>
+<li>Communication skills</li>
+<li>Knowledge of retail trends</li>
+</ul>
+<p>Once you identify your core skills, the next step is to come up with business ideas that leverage those skills. If nothing immediately comes to mind, try expanding your scope by adding complementary skills that you can grasp quickly.</p>
+<p>Going back to our retail store manager example, let’s assume that person has been providing social media marketing as a freelancer. They can combine their retail experience with their social media marketing skills to create an ecommerce store and promote the products online.</p>
+<p>Using this brainstorming strategy, think of a unique and income-generating business idea that takes advantage of your core competencies. Give this strategy several weeks to work. One idea will preoccupy your thoughts over others. The next step will be to research your idea to make sure it’s a good one.<br />
+<div class="fit-omv2-shortcode"></div> <style id="fit-omv2-inline-styles" type="text/css">
+		#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484 .fit-omv2-headline{
+				 font-size: 24px;		}
+		#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484 .fit-omv2-content-content {
+				 font-size: 18px;		}
+		#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484 .fit-omv2-button,
+		#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484 .fit-omv2-email-submit{
+				 font-size: 16px;		}
+		#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484  .fit-omv2-headline{
+						 font-size: 21px;		}
+		#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484  .fit-omv2-content-content{
+						 font-size: 16px;		}
+		#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484  .fit-omv2-button,
+		#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484  .fit-omv2-email-submit{
+				 font-size: 16px;		}
+
+
+		/* Background Color */
+					
+			#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-modal,
+			body:not(.wp-admin) #fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-modal,
+			body.wp-admin #fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-modal,
+			body.wp-admin #fit_omv2_mobile_smartphone_preview_metabox .inside #fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile.fit-omv2-campaign-popup-click .fit-omv2-modal-inner {
+				background-color: rgba(255, 255, 255, 1);
+			}
+		
+		/* Button Color */
+					#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-form .fit-omv2-email-submit, 
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-email-submit, 
+			#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-button-yes, 
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-button-yes, 
+			#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-form .fit-omv2-email-submit, 
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-email-submit, 
+			#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-button-yes, 
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-button-yes {
+				background-color: rgba(211, 70, 0, 1);
+				border-color: rgba(211, 70, 0, 1);
+				/* box-shadow: 0 4px 0px 0px rgba(211, 70, 0, 0.7); */
+			}
+		
+		/* Text Color */
+					#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484,
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484{
+				color: rgba(0, 0, 0, 1);	
+			}
+			</style>
+<div id="fit-omv2-desktop-614484" class="fit-omv2 fit-omv2-614484 fit-omv2-desktop fit-omv2-cta-email fit-omv2-campaign-inline fit-omv2-buttons-email-original fit-omv2-modal-sidebar-none" data-campaign-id="614484" data-campaign-name="Email Capture In-Line Popup &#8211; Starting a Business eBook_V1" data-campaign-type="inline" data-cta-type="email" data-desktop-disabled="0">
+<div class="fit-omv2-modal">
+<div class="fit-omv2-modal-sidebar">
+<div class="fit-omv2-modal-sidebar-icon-email">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+<path fill-rule="evenodd" d="M21,7.38246601 L21,5 L3,5 L3,7.38199365 L12.0000224,11.8824548 L21,7.38246601 Z M21,9.61853399 L11.9999776,14.1185452 L3,9.61810635 L3,19 L21,19 L21,9.61853399 Z M3,3 L21,3 C22.1045695,3 23,3.8954305 23,5 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,5 C1,3.8954305 1.8954305,3 3,3 Z" />
+</svg>
+</div>
+</div>
+<div class="fit-omv2-modal-inner">
+<span class="fit-omv2-close">&times;</span>
+<div class="fit-omv2-text">
+<div class="fit-omv2-image-before-headline">
+</div>
+<div class="fit-omv2-headline">
+FREE Ebook: How To Start Your Business
+</div>
+<div class="fit-omv2-content">
+<div class="fit-omv2-image-before-content">
+</div>
+<div class="fit-omv2-content-content">
+Step-by-step blueprint that shows you how to go from idea to launch in 30 days
+</div>
+<div class="fit-omv2-image-after-content">
+</div>
+</div>
+</div>
+<div class="fit-omv2-form">
+<div class="fit-omv2-image-left-of-form">
+</div>
+<div class="fit-omv2-buttons fit-omv2-buttons-email">
+<div id="fit-omv2-email-form-desktop">
+<div class="invalid-feedback">This email address is invalid.</div>
+<label for="email">Email</label>
+<input type="email" class="fit-omv2-email-email" name="email" placeholder="Email Address">
+<button id="fit-omv2-desktop-email-submit-614484" type="submit" class="fit-omv2-email-submit" name="submit" value="submit">Download My Ebook</button>
+</div>
+</div>
+<div class="fit-omv2-image-right-of-form">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="fit-omv2-mobile-614484" class="fit-omv2 fit-omv2-614484 fit-omv2-mobile fit-omv2-cta-email fit-omv2-campaign-inline fit-omv2-buttons-email-original fit-omv2-modal-sidebar-none" data-campaign-id="614484" data-campaign-name="Email Capture In-Line Popup &#8211; Starting a Business eBook_V1" data-campaign-type="inline" data-cta-type="email">
+<div class="fit-omv2-modal">
+<div class="fit-omv2-modal-sidebar">
+<div class="fit-omv2-modal-sidebar-icon-email">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+<path fill-rule="evenodd" d="M21,7.38246601 L21,5 L3,5 L3,7.38199365 L12.0000224,11.8824548 L21,7.38246601 Z M21,9.61853399 L11.9999776,14.1185452 L3,9.61810635 L3,19 L21,19 L21,9.61853399 Z M3,3 L21,3 C22.1045695,3 23,3.8954305 23,5 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,5 C1,3.8954305 1.8954305,3 3,3 Z" />
+</svg>
+</div>
+</div>
+<div class="fit-omv2-modal-inner">
+<span class="fit-omv2-close">&times;</span>
+<div class="fit-omv2-flex">
+<div class="fit-omv2-modal-text">
+<div class="fit-omv2-headline">
+FREE Ebook: How To Start Your Business
+</div>
+<div class="fit-omv2-content">
+<div class="fit-omv2-content-content">
+</div>
+</div>
+</div>
+<div class="fit-omv2-buttons fit-omv2-buttons-email">
+<div id="fit-omv2-email-form-mobile">
+<label for="email">Email</label>
+<input type="email" class="fit-omv2-email-email" name="email" placeholder="Email Address">
+<button id="fit-omv2-mobile-email-submit-614484" type="submit" class="fit-omv2-email-submit" name="submit" value="submit">Download My Ebook</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</p>
+<h2>2. Identify Your Target Market</h2>
+<p>Once you have your at-home business idea, the next step is to identify your <a href="https://fitsmallbusiness.com/customer-profile-template-examples/">target market</a>. Your target market is a particular group or segment of the population that is most likely to buy your product or service. You should identify and research your target market to ensure there are enough customers available to purchase your product.</p>
+<h3>Create Customer Personas</h3>
+<p>A <a href="https://fitsmallbusiness.com/customer-persona-template/">customer persona</a> is a fictionalized representation of a specific type of customer based on demographics and interests. Typically, a business will have several customer personas if they are selling to multiple customer types. You need to figure out which customer personas fit your business, because it’s important to know the demographics you should target in your market research.</p>
+<p>Additionally, you’ll use customer personas to develop your marketing strategy. It’s wise to market directly to your potential customers. For a new and unknown brand, specifically marketing to targeted individuals is more effective than trying to market to everyone.</p>
+<p>To help you develop your customer personas, consider listing several bits of information about your customers, such as a description, specific demographics, personality, preferences, product objectives, and pain points. Break this information into different sections and fill out each for the type of customer you will target.</p>
+<div id="attachment_574375" style="width: 850px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-574375" class="aligncenter size-full wp-image-934536 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20840%20504'%3E%3C/svg%3E" alt="Simple Customer Persona" width="840" height="504" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona.jpg 840w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona-300x180.jpg 300w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona-768x461.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona-730x438.jpg 730w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona-830x498.jpg 830w" data-lazy-sizes="(max-width: 840px) 100vw, 840px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona.jpg" /><noscript><img aria-describedby="caption-attachment-574375" class="aligncenter size-full wp-image-934536 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona.jpg" alt="Simple Customer Persona" width="840" height="504" srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona.jpg 840w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona-300x180.jpg 300w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona-768x461.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona-730x438.jpg 730w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Simple_Customer_Persona-830x498.jpg 830w" sizes="(max-width: 840px) 100vw, 840px" /></noscript><p id="caption-attachment-574375" class="wp-caption-text">Here is simple customer persona for a wedding cake product.</p></div>
+<h3>Target Market Resources</h3>
+<p>Once you determine your customer personas, it’ll be time to do research and ensure there are enough customers available to make your business a success. The type of market research you do for this depends on your business. If you’re servicing local customers, you want to ensure there are enough prospective customers physically located near your business to make it successful. If you’re an online-only business, you need to focus on where customers are spending time online versus if they live near your home.</p>
+<p>Regarding resources to do market research, <a href="https://go.performi.com/goto/referenceusa-main?p=how-to-start-a-home-business" rel="noopener nofollow" class="fitlink" target="_blank">ReferenceUSA</a> is one of the best demographic resources with information on 147 million U.S. residents. Access to ReferenceUSA is free at thousands of libraries across the U.S. The <a href="https://www.census.gov" target="_blank" rel="noopener ">U.S. Census</a> also contains a wealth of demographic information for free.</p>
+<h2>3. Research Your Competitors</h2>
+<p>Virtually every business has a direct competitor. As an entrepreneur, you need to know which companies are operating in the same market as your company so you can differentiate your business from theirs. When creating marketing materials, you don’t want your content to mirror that of competitor businesses.</p>
+<p>Here are a few tips to gather information about your competitors:</p>
+<ul>
+<li><strong>Conduct a Google search:</strong> Use Google to find local competitors. Visit their homepages and take note of their business models, contact details, and featured customers.</li>
+<li><strong>Google My Business:</strong> Every business looking for local customers gets a free Google My Business Listing. Some businesses thoroughly fill out this listing and provide great information about their business.</li>
+<li><strong>Use social media:</strong> Only 54% of small businesses have websites, but there are over 50 million business pages on Facebook. If you can’t find competitors on Google, you may find them on Facebook, Twitter, or LinkedIn.</li>
+<li><strong>Physical marketing materials:</strong> Collect and consume as many marketing materials from your competitors as possible. Consider collecting flyers, ads, and brochures.</li>
+<li><strong>Post a job ad:</strong> 51% of <a href="https://blog.accessperks.com/employee-engagement-loyalty-statistics-the-ultimate-collection" target="_blank" rel="noopener ">employees are open to leaving</a> their current jobs. Take advantage of this statistic by posting a job ad designed to attract your competitors’ employees. Once hired, they can give you insight on how your competition operates.</li>
+</ul>
+<p>Remember, you don’t have to do all of these competitor research tactics. You may find that you receive plenty of information simply from doing a Google search and studying competitor websites and directory listings.</p>
+<h3>Competitor Comparison Table</h3>
+<p>Once you collect information about your competitors, arrange the information in a table to compare each. In the table, list your competitors’ names, distance from your home business, what they do better than your business (advantages), and what your business will do better than theirs (disadvantage).</p>
+<h2>4. Define Your Unique Value Proposition</h2>
+<p>After completing your comparison table, you will know how many competitors are in your market and their important features. It will be extremely difficult for you to win over their customers if you offer the same products or services. You have to stand out and offer more value or address a specific need if you want to be successful.</p>
+<div id="attachment_574376" style="width: 800px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-574376" class="aligncenter size-full wp-image-934537 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20790%20865'%3E%3C/svg%3E" alt="Unique Value Proposition" width="790" height="865" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition.jpg 790w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition-274x300.jpg 274w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition-768x841.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition-730x799.jpg 730w" data-lazy-sizes="(max-width: 790px) 100vw, 790px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition.jpg" /><noscript><img aria-describedby="caption-attachment-574376" class="aligncenter size-full wp-image-934537 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition.jpg" alt="Unique Value Proposition" width="790" height="865" srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition.jpg 790w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition-274x300.jpg 274w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition-768x841.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Infographic_Unique_Value_Proposition-730x799.jpg 730w" sizes="(max-width: 790px) 100vw, 790px" /></noscript><p id="caption-attachment-574376" class="wp-caption-text">Reflect on your business&#8217; strengths to identify your main unique value proposition.</p></div>
+<p>Using the data you gather from your research, you can come up with a unique value proposition. Think of this as what separates you from your competition, while at the same time something that your customers want. To come up with a unique value proposition, examine what everyone else is doing and the current market. Then, determine how you can provide a better solution, offer a better price point, or both.</p>
+<p>For example, someone looking to start a PC repair home business discovers that all firms providing the same service in the area are retail shops. It is common practice for retail stores to strongly recommend item replacements in order to increase sales. In this scenario, there are several steps an individual can take to help build a unique value proposition using the data they’ve gathered:</p>
+<ul>
+<li><strong>Evaluate the current market:</strong> Customers drive to the store to get electronics fixed, only to get recommendations to purchase new items or wait several days for basic troubleshooting, paying high costs for their time or replacement electronics.</li>
+<li><strong>Determine a better solution:</strong> Offer home-based appointments to provide personalized laptop or PC repair and upgrade services. Basic troubleshooting is completed within a few hours, not days.</li>
+<li><strong>Offer a better price point:</strong> Customers mostly pay for labor, saving them the unnecessary expense of replacing functional components.</li>
+</ul>
+<p>Defining a unique value proposition can help you penetrate the market and put your home business in a better position to succeed. Use the unique value proposition to make a clear and concise statement of why you’re better than the competition.</p>
+<h2>5. Test Your Home Business Idea</h2>
+<p>Next, you’ll want to test your idea to see if customers will actually pay for it. Your business idea may look good on paper, but you wouldn’t know for sure that you have something that works unless you put it in front of your market.</p>
+<p>When testing your idea, generally avoid family and friends. Their feedback will be skewed due to your prior relationship. While it’s fine to get their feedback, the real test of success of a product or service is a paying customer with no prior relationship.</p>
+<p>Here are a few tips to help you evaluate the viability of your idea:</p>
+<h3>Introduce Your Product or Service as Beta</h3>
+<p>Beta is when you’re testing out your product or service with the goal of receiving feedback. Find potential beta customers at trade shows, festivals, farmers markets, and other types of events where you can sell your product or service to a relatively small group of people. Consider offering discounts in exchange for customer feedback. While you can make some money with the beta, don’t let it distract you from your goal of testing and improving your idea.</p>
+<p>You may be tempted to spend several months (or years) creating a new product to sell before launching it to a large market. We recommend starting small and thinking big. Get your product or service out to a few people as quickly as possible to receive feedback so you can tweak the product or service before going full-fledged.</p>
+<h3>Work Part-time for Your Home Business</h3>
+<p>Entrepreneurs take calculated risks. If you’re currently employed, it’s wise to use your free time to evaluate whether your idea has the potential to generate income before jumping ship. Sell the product or service part time to determine if it will sell before giving up your full-time income.</p>
+<h3>Offer Your Product or Service at No Cost</h3>
+<p>If you’re offering a service, find clients who require your expertise. Offer to work for them for free, but request an online testimonial in return. By working for free, you can gain valuable experience, build your portfolio, and build a quality online presence with positive reviews.</p>
+<h3>Run a Crowdfunding Campaign</h3>
+<p>A great way to test your business idea without spending a lot of money is to run a <a href="https://fitsmallbusiness.com/how-to-crowdfund-small-business/">crowdfunding campaign</a>. This is preselling a product before you’re ready to deliver it so you can raise money to create it. Crowdfunding is a great way to determine if there is a market for your product. Typically, a crowdfunding platform charges a 5% fee of the total amount raised plus a 3% transaction fee.</p>
+<div id="attachment_934540" style="width: 850px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-934540" class="wp-image-934540 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20840%20552'%3E%3C/svg%3E" alt="Screenshot of Prepd Skillet on Kickstarter" width="840" height="552" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter.jpg 1100w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-300x197.jpg 300w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-1024x673.jpg 1024w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-768x505.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-730x480.jpg 730w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-830x546.jpg 830w" data-lazy-sizes="(max-width: 840px) 100vw, 840px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter.jpg" /><noscript><img aria-describedby="caption-attachment-934540" class="wp-image-934540 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter.jpg" alt="Screenshot of Prepd Skillet on Kickstarter" width="840" height="552" srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter.jpg 1100w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-300x197.jpg 300w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-1024x673.jpg 1024w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-768x505.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-730x480.jpg 730w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Prepd_Skillet_on_Kickstarter-830x546.jpg 830w" sizes="(max-width: 840px) 100vw, 840px" /></noscript><p id="caption-attachment-934540" class="wp-caption-text">Use a crowdfunding platform, like Kickstarter, to receive product validation and raise capital for your idea.</p></div>
+<h2>6. Come Up With a Budget</h2>
+<p>With a viable business idea, your next step is to estimate how much you need to get started. The <a href="https://www.sba.gov/blogs/how-estimate-cost-starting-business-scratch" target="_blank" rel="noopener ">Small Business Administration</a> estimates that you can start a micro business for as little as $3,000, or possibly even less.</p>
+<p>Of course, costs vary depending on the nature of your business. Since you are not paying for an office or a store, your main concerns will be equipment and marketing.</p>
+<h3>Set Up Your Office</h3>
+<p>A significant part of your capital will likely go to materials and equipment. Depending on your business, you might have to spend more because you need specialized tools. For example, someone starting a podcasting business needs a microphone, headphones, editing software, and a computer.</p>
+<p>Regardless of the nature of your business, you will most likely need some of the following equipment:</p>
+<ul>
+<li><a href="https://fitsmallbusiness.com/best-office-computers-business-desktop/"><strong>Computers</strong></a><strong>:</strong> Virtually all businesses rely on computers to perform day-to-day tasks such as document writing and file storage. In addition, you can use computers to market your business and communicate with customers online. Depending on your needs, computers run between $400 and $1,500.</li>
+<li><a href="https://fitsmallbusiness.com/best-business-internet-provider/"><strong>Fast and reliable internet access</strong></a><strong>:</strong> Invest in a reputable service provider that offers high-speed internet. Expect to pay between $85 and $110 per month.</li>
+<li><strong>All-in-one printer, scanner, fax, and copier:</strong> Print brochures, flyers, and other marketing materials without traveling to the nearest printing shop. Basic plans of online fax services cost between $9 and $10 per month.</li>
+<li><strong>Ergonomic desks and chairs:</strong> Ergonomic furniture is a solid investment because you will likely spend many hours in your office, especially in the early stages of your business. A chair will directly impact your overall health. Budget ergonomic chairs cost between $35 and $160.</li>
+</ul>
+<p>In addition to physical equipment, you may want to <a href="https://fitsmallbusiness.com/home-office-setup/">spend money on office decor</a>. Consider adding plants, artwork, and certain colors to keep you relaxed and energized in your working environment.</p>
+<h3>Create Financial Projections</h3>
+<p>Financial projections are estimates of how much money the business will earn and spend over the first three years in business. It’s important that you have these in your business plan if you want to receive funding from a bank or investor, because they usually require it. In addition, establishing solid financial projections is essential even after you start the business. Successful companies usually produce month-by-month projections and evaluate how close they come to actuals to gain insight into how the business is really doing.</p>
+<p>It’s important to think through what expenses you will have over the first few years in business so that you don’t run out of capital. Additionally, you’ll want to ensure you accurately predict startup expenses if you’re looking to raise capital for your business.</p>
+<p>Instead of creating your own financial projections from scratch, <a href="https://fitsmallbusiness.com/sales-forecast-template/">consider using a premade template</a>. A financial projections template is typically a Microsoft Excel sheet with preconfigured formulas. When you enter financial data, the template automatically updates cells throughout the spreadsheet.</p>
+<h2>7. Choose a Legal Structure</h2>
+<p>Almost all home businesses should register as a legal business entity, such as a limited liability company (LLC). This would protect a business owner’s personal financial assets if a lawsuit ever occurs against the business. <a href="https://go.performi.com/goto/incfile?p=how-to-start-a-home-business" rel="noopener nofollow" class="fitlink" target="_blank">Incfile</a> is an online legal service that assists business owners with registering their company as a legal entity with the state.</p>
+<p>The table below shows the requirements for each business structure:<br />
+<div class="fit-table-container"><div class="fit-table-scroll-container"><table id="fit-table-574383" class="fit-table fit-table-574383 tablepress"><thead><tr class="header-row row-1"><th class="column-1" colspan="1" rowspan="1"><div>Business Type</div></th><th class="column-2" colspan="1" rowspan="1"><div>Requirements</div></th></tr></thead><tbody><tr class="row-2"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>Sole Proprietorship</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>&bull; Social Security number</div><div>&bull; Two pieces of personal ID (driver&rsquo;s license, passport, or Social Security card)</div><div>&bull; Doing Business As certificate&nbsp;</div></td></tr><tr class="row-3"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>LLC</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>&bull; <a href="https://fitsmallbusiness.com/employer-identification-number/">Federal Employee Identification Number</a></div><div>&bull; Signed operating agreement</div><div>&bull; Signed Declaration of Unincorporated business</div><div>&bull; Business license, if available</div></td></tr><tr class="row-4"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>C Corporation</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>&bull; Federal Employee Identification Number</div><div>&bull; Certified Articles of Incorporation</div><div>&bull; Corporate Charter</div><div>&bull; Business license, if available&nbsp;</div></td></tr><tr class="row-5"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>S Corporation</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>&bull; Federal Employee Identification Number</div><div>&bull; Certified Articles of Incorporation or Corporate Charter</div><div>&bull; Signed corporate resolution and signature card by account signers</div><div>&bull; Business license, if available</div></td></tr></tbody></table></div></div></p>
+<h3>At-home Business License</h3>
+<p>If you have customers, employees, or are creating products in your house, your city may require an at-home business license. This license is generally required to ensure that the business operating out of a home isn’t doing anything to cause harm to the public.</p>
+<p>The house may be subject to an inspection from a city official. To determine if your city requires an at-home business license, check with your city’s official business registration website.<br />
+<div class="fit-omv2-shortcode"></div> <style id="fit-omv2-inline-styles" type="text/css">
+		#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484 .fit-omv2-headline{
+				 font-size: 24px;		}
+		#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484 .fit-omv2-content-content {
+				 font-size: 18px;		}
+		#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484 .fit-omv2-button,
+		#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484 .fit-omv2-email-submit{
+				 font-size: 16px;		}
+		#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484  .fit-omv2-headline{
+						 font-size: 21px;		}
+		#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484  .fit-omv2-content-content{
+						 font-size: 16px;		}
+		#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484  .fit-omv2-button,
+		#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484  .fit-omv2-email-submit{
+				 font-size: 16px;		}
+
+
+		/* Background Color */
+					
+			#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-modal,
+			body:not(.wp-admin) #fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-modal,
+			body.wp-admin #fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-modal,
+			body.wp-admin #fit_omv2_mobile_smartphone_preview_metabox .inside #fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile.fit-omv2-campaign-popup-click .fit-omv2-modal-inner {
+				background-color: rgba(255, 255, 255, 1);
+			}
+		
+		/* Button Color */
+					#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-form .fit-omv2-email-submit, 
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-email-submit, 
+			#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-button-yes, 
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-button-yes, 
+			#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-form .fit-omv2-email-submit, 
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-email-submit, 
+			#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484.fit-omv2.fit-omv2-desktop .fit-omv2-button-yes, 
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484.fit-omv2.fit-omv2-mobile .fit-omv2-button-yes {
+				background-color: rgba(211, 70, 0, 1);
+				border-color: rgba(211, 70, 0, 1);
+				/* box-shadow: 0 4px 0px 0px rgba(211, 70, 0, 0.7); */
+			}
+		
+		/* Text Color */
+					#fit-omv2-desktop-614484.fit-omv2.fit-omv2-desktop.fit-omv2-614484,
+			#fit-omv2-mobile-614484.fit-omv2.fit-omv2-mobile.fit-omv2-614484{
+				color: rgba(0, 0, 0, 1);	
+			}
+			</style>
+<div id="fit-omv2-desktop-614484" class="fit-omv2 fit-omv2-614484 fit-omv2-desktop fit-omv2-cta-email fit-omv2-campaign-inline fit-omv2-buttons-email-original fit-omv2-modal-sidebar-none" data-campaign-id="614484" data-campaign-name="Email Capture In-Line Popup &#8211; Starting a Business eBook_V1" data-campaign-type="inline" data-cta-type="email" data-desktop-disabled="0">
+<div class="fit-omv2-modal">
+<div class="fit-omv2-modal-sidebar">
+<div class="fit-omv2-modal-sidebar-icon-email">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+<path fill-rule="evenodd" d="M21,7.38246601 L21,5 L3,5 L3,7.38199365 L12.0000224,11.8824548 L21,7.38246601 Z M21,9.61853399 L11.9999776,14.1185452 L3,9.61810635 L3,19 L21,19 L21,9.61853399 Z M3,3 L21,3 C22.1045695,3 23,3.8954305 23,5 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,5 C1,3.8954305 1.8954305,3 3,3 Z" />
+</svg>
+</div>
+</div>
+<div class="fit-omv2-modal-inner">
+<span class="fit-omv2-close">&times;</span>
+<div class="fit-omv2-text">
+<div class="fit-omv2-image-before-headline">
+</div>
+<div class="fit-omv2-headline">
+FREE Ebook: How To Start Your Business
+</div>
+<div class="fit-omv2-content">
+<div class="fit-omv2-image-before-content">
+</div>
+<div class="fit-omv2-content-content">
+Step-by-step blueprint that shows you how to go from idea to launch in 30 days
+</div>
+<div class="fit-omv2-image-after-content">
+</div>
+</div>
+</div>
+<div class="fit-omv2-form">
+<div class="fit-omv2-image-left-of-form">
+</div>
+<div class="fit-omv2-buttons fit-omv2-buttons-email">
+<div id="fit-omv2-email-form-desktop">
+<div class="invalid-feedback">This email address is invalid.</div>
+<label for="email">Email</label>
+<input type="email" class="fit-omv2-email-email" name="email" placeholder="Email Address">
+<button id="fit-omv2-desktop-email-submit-614484" type="submit" class="fit-omv2-email-submit" name="submit" value="submit">Download My Ebook</button>
+</div>
+</div>
+<div class="fit-omv2-image-right-of-form">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="fit-omv2-mobile-614484" class="fit-omv2 fit-omv2-614484 fit-omv2-mobile fit-omv2-cta-email fit-omv2-campaign-inline fit-omv2-buttons-email-original fit-omv2-modal-sidebar-none" data-campaign-id="614484" data-campaign-name="Email Capture In-Line Popup &#8211; Starting a Business eBook_V1" data-campaign-type="inline" data-cta-type="email">
+<div class="fit-omv2-modal">
+<div class="fit-omv2-modal-sidebar">
+<div class="fit-omv2-modal-sidebar-icon-email">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+<path fill-rule="evenodd" d="M21,7.38246601 L21,5 L3,5 L3,7.38199365 L12.0000224,11.8824548 L21,7.38246601 Z M21,9.61853399 L11.9999776,14.1185452 L3,9.61810635 L3,19 L21,19 L21,9.61853399 Z M3,3 L21,3 C22.1045695,3 23,3.8954305 23,5 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,5 C1,3.8954305 1.8954305,3 3,3 Z" />
+</svg>
+</div>
+</div>
+<div class="fit-omv2-modal-inner">
+<span class="fit-omv2-close">&times;</span>
+<div class="fit-omv2-flex">
+<div class="fit-omv2-modal-text">
+<div class="fit-omv2-headline">
+FREE Ebook: How To Start Your Business
+</div>
+<div class="fit-omv2-content">
+<div class="fit-omv2-content-content">
+</div>
+</div>
+</div>
+<div class="fit-omv2-buttons fit-omv2-buttons-email">
+<div id="fit-omv2-email-form-mobile">
+<label for="email">Email</label>
+<input type="email" class="fit-omv2-email-email" name="email" placeholder="Email Address">
+<button id="fit-omv2-mobile-email-submit-614484" type="submit" class="fit-omv2-email-submit" name="submit" value="submit">Download My Ebook</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</p>
+<h2>8. Open a Business Bank Account</h2>
+<p>Once you’ve registered your home business as a legal entity, the next step is to open a business bank account. Having a business bank account effectively separates your personal and business expenses so you can avoid cash flow issues. Additionally, separating personal and business finances helps to ensure a smoother federal tax audit, if one were to ever occur.</p>
+<h3>Select Your Business Bank Account Type</h3>
+<p>There are three types of business bank accounts that you can choose from: business checking account, business savings account, and business certificates of deposit. Which one you choose depends on the type of business you have.</p>
+<p>The table below shows the advantages and disadvantages of each account type:<br />
+<style>.fit-table-574388 .column-1, .fit-table-574388 .column-2, .fit-table-574388 .column-3 {
+	width: 33.333%;
+}</style><div class="fit-table-container"><div class="fit-table-scroll-container"><table id="fit-table-574388" class="fit-table fit-table-574388 tablepress"><thead><tr class="header-row row-1"><th class="column-1" colspan="1" rowspan="1"><div>Bank Account Types</div></th><th class="column-2" colspan="1" rowspan="1"><div>Advantage</div></th><th class="column-3" colspan="1" rowspan="1"><div>Disadvantage</div></th></tr></thead><tbody><tr class="row-2"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>Business Checking Account</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>Can use a debit card or physical checks to pay business expenses; no transaction limit</div></td><td class="column-3 cd" colspan="1" rowspan="1"><div>Deposits don&rsquo;t earn interest</div></td></tr><tr class="row-3"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>Business Savings Account</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>Deposits earn a little interest over time; can link to checking accounts</div></td><td class="column-3 cd" colspan="1" rowspan="1"><div>Often comes with a transaction limit</div></td></tr><tr class="row-4"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>Business Certificates of Deposit</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>Deposits earn higher interest rates than conventional savings accounts</div></td><td class="column-3 cd" colspan="1" rowspan="1"><div>Terms reduce liquidity; you can&rsquo;t withdraw money until the term is over&nbsp;</div></td></tr></tbody></table></div></div><br />
+If you decide a business checking account is the best option for you, look for one that doesn’t charge a fee for meeting a minimum balance requirement. Most big banks require a balance of at least $1,500, or they will charge a fee. <a href="https://go.performi.com/goto/azlo-main?p=how-to-start-a-home-business" rel="noopener nofollow" class="fitlink" target="_blank">Azlo</a> is a business bank account designed for entrepreneurs and freelancers. It doesn’t require a minimum balance and provides free invoicing software.</p>
+<p style="text-align: center;"><a href="https://go.performi.com/goto/azlo-main?p=how-to-start-a-home-business" rel="noopener nofollow" class="fitlink button" target="_blank">Visit Azlo</a></p>
+<h3>Choose the Right Bank for Your Business</h3>
+<p>Every business has its own unique needs. Before you open a bank account, take time to look around and see which bank can best accommodate the needs of your business.</p>
+<p>When reviewing bank accounts, consider these factors:</p>
+<ul>
+<li><strong>Services:</strong> Other than deposits, banks often offer additional services such as small business loans and credit lines. Build a relationship with a bank that offers such services in case your home business needs it in the future.</li>
+<li><strong>Bank fees:</strong> Take note of banking costs such as ATM fees, monthly services fees, and deposit fees. These fees can pile up without you noticing.</li>
+<li><strong>Online features:</strong> Choose a bank that provides online services such as online bill payment and mobile deposits.</li>
+</ul>
+<p>Keep these factors in mind when choosing a bank account for your business. They can help you run your business with limited costs and the ability to fund unexpected needs. Additionally, before deciding on a bank, read its mobile app reviews. You may be accessing your account through mobile more than a desktop.</p>
+<h3>Prepare the Required Documents</h3>
+<p>When you’re ready to open a business bank account, you have to show documentation to confirm the name and nature of your business. On top of that, you’ll have to provide documents to prove that your firm is registered with the IRS and show that you have the authority to create the account. Other requirements depend on your business structure.</p>
+<p>The table below lists the typical requirements to open a business bank account based on your business structure:<br />
+<div class="fit-table-container"><div class="fit-table-scroll-container"><table id="fit-table-574394" class="fit-table fit-table-574394 tablepress"><thead><tr class="header-row row-1"><th class="column-1" colspan="1" rowspan="1"><div>Business Type</div></th><th class="column-2" colspan="1" rowspan="1"><div>Requirements</div></th></tr></thead><tbody><tr class="row-2"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>Sole Proprietorship</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>&bull; Social Security number</div><div>&bull; Two pieces of personal ID (driver&rsquo;s license, passport, or Social Security card)</div><div>&bull; Doing Business As certificate</div></td></tr><tr class="row-3"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>LLC</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>&bull; <a href="https://fitsmallbusiness.com/employer-identification-number/">Federal Employee Identification Number</a></div><div>&bull; Signed operating agreement</div><div>&bull; Signed Declaration of Unincorporated business</div><div>&bull; Business license, if available</div></td></tr><tr class="row-4"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>C Corporation</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>&bull; Federal Employee Identification Number</div><div>&bull; Certified Articles of Incorporation</div><div>&bull; Corporate Charter</div><div>&bull; Business license, if available</div></td></tr><tr class="row-5"><td class="column-1 cd" colspan="1" rowspan="1"><div><strong>S Corporation</strong></div></td><td class="column-2 cd" colspan="1" rowspan="1"><div>&bull; Federal Employee Identification Number</div><div>&bull; Certified Articles of Incorporation or Corporate Charter</div><div>&bull; Signed corporate resolution and signature card by account signers</div><div>&bull; Business license, if available</div></td></tr></tbody></table></div></div></p>
+<h2>9. Financing for Your Home Business</h2>
+<p>While most entrepreneurs rely on their personal savings to start a business, others seek funding from banks or family and friends. In fact, 75% of small <a href="https://fitsmallbusiness.com/small-business-statistics/">businesses used their personal finances</a> to fund their business, while 16% went to banks, and 6% solicited the help of family and friends. Let’s look at several funding options and see which one’s the best for your home business.</p>
+<h3>Rollover Your Retirement Funds Into Your Business</h3>
+<p>A <a href="https://fitsmallbusiness.com/rollover-business-startups-robs/">Rollover for Business Startups (ROBS)</a> lets you invest retirement funds in a new business without paying taxes or early withdrawal penalties. A ROBS is not a loan or withdrawal; instead, it allows you to tap into your retirement funds early. A ROBS is a great way to use your 401(k) to start a new business, particularly if you have more than $50,000 in qualifying retirement savings. There are no monthly payments and repayment is not required.</p>
+<h3>Tap Funds From Friends &amp; Family</h3>
+<p>You can talk to your friends and family and introduce your business idea. If they like it, offer the opportunity to invest in your home business. You can take the money as a loan, or you can offer them a slice of your business. If you take this route, be sure to have an attorney draw up the paperwork to avoid problems in the future.</p>
+<h3>Borrow From a Peer-to-Peer Site</h3>
+<p>If getting money from friends or family is not an option, consider applying for a loan from peer-to-peer (P2P) websites. P2P platforms like the LendingClub match borrowers with investors. They offer small business loans from $5,000 to $300,000 and allow you to pay them back over one to five years with a typical APR of 9.77% to 35.71%. This gives you quick access to funds, while investors enjoy solid returns over time.</p>
+<h3>Use Credit Cards</h3>
+<p>Another option to fund your home business is to use personal and business credit cards. Many offer 0% APR for new clients while providing rewards or cash-back programs. On average, credit cards charge a 16% annual interest rate plus fees of about $50 to $100 annually. With credit cards, you don’t have to draw from your personal savings to fund your business.</p>
+<h3>Apply for an SBA Loan</h3>
+<p>The <a href="http://sba.gov/" target="_blank" rel="noopener ">Small Business Administration</a> (SBA) offers loan guarantee programs. A loan guarantee means that the SBA does not provide loans, your local bank does. It’s difficult for an at-home startup business to receive funding from a bank for an SBA loan.</p>
+<p>A bank is typically looking for at least three years of consistent income before lending to a business. If you’re a startup, the bank wants to have access to the loan amount in a liquid account, such as a certificate of deposit (C.D).</p>
+<p>To qualify for an SBA loan, your credit score must be above 680, and you need to be able to put up collateral for the loan, like real estate property. If you qualify, you can borrow up to $250,000, but expect to pay an annual interest rate of 6% to 9%.</p>
+<blockquote><p><img class="alignright wp-image-934532 size-full img-fluid" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20200'%3E%3C/svg%3E" alt="Emily Purdom Founder DotComTherapy" width="200" height="200" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px.jpg 200w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px-150x150.jpg 150w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px-45x45.jpg 45w" data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px.jpg" /><noscript><img class="alignright wp-image-934532 size-full img-fluid" src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px.jpg" alt="Emily Purdom Founder DotComTherapy" width="200" height="200" srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px.jpg 200w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px-150x150.jpg 150w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Emily_Purdom_DotComTherapy_200px-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" /></noscript>“It is critical that a business remains lean. We took out sequential small SBA loans as needed. Define the minimal viable product or service you need to begin bringing in revenue and fund that. Through that initial influx of cash, you will learn what is most important to seek funding for and what can be pushed down the line while organic cash flow develops.”</p>
+<p>&#8211; Emily Purdom, Founder, <a href="http://www.dotcomtherapy.com/" target="_blank" rel="noopener ">DotComTherapy</a></p></blockquote>
+<h2>10. Market Your Home Business</h2>
+<p>Since your home business is new, you need to market it to let potential customers know it exists. Additionally, your marketing efforts should help customers understand how your product or service is different from or better than your competitors. Speak directly to your potential customers’ pain points to win them over and convince them to do business with you.</p>
+<h3>Create a Word of Mouth Program</h3>
+<p>Close to nine out of 10 customers rely on word-of-mouth recommendations before making a business decision. As a startup, you can use word-of-mouth marketing by creating a <a href="https://blog.optimizely.com/2016/05/31/customer-referral-program/" target="_blank" rel="noopener ">referral program</a>.</p>
+<p>Start with your friends and family. Ask them if they know someone who can benefit from your product or service. You may also want to consider offering incentives for referrals, such as commissions or rewards.</p>
+<h3>Create a Website</h3>
+<p>It is estimated that 46% of U.S. small businesses don’t have websites. This means that almost half of your competitors are losing potential business because they don’t have an online presence.</p>
+<p>Fortunately, there are many services available to help you launch your own website quickly and easily. Using site builder and domain host <a href="https://go.performi.com/goto/dreamhost?p=how-to-start-a-home-business" rel="noopener nofollow" class="fitlink" target="_blank">DreamHost</a>, you pay less than $5 per month for hosting and get a domain name and website builder tools for free.</p>
+<div id="attachment_574379" style="width: 960px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-574379" class="aligncenter size-full wp-image-934538 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20950%20557'%3E%3C/svg%3E" alt="Screenshot of DreamHost WordPress Themes" width="950" height="557" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes.jpg 950w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes-300x176.jpg 300w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes-768x450.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes-730x428.jpg 730w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes-830x487.jpg 830w" data-lazy-sizes="(max-width: 950px) 100vw, 950px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes.jpg" /><noscript><img aria-describedby="caption-attachment-574379" class="aligncenter size-full wp-image-934538 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes.jpg" alt="Screenshot of DreamHost WordPress Themes" width="950" height="557" srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes.jpg 950w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes-300x176.jpg 300w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes-768x450.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes-730x428.jpg 730w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_DreamHost_Wordpress_Themes-830x487.jpg 830w" sizes="(max-width: 950px) 100vw, 950px" /></noscript><p id="caption-attachment-574379" class="wp-caption-text">DreamHost offers websites with a modern look and feel.</p></div>
+<p>Invest in a simple yet aesthetically pleasing website that provides the following information about your company:</p>
+<ul>
+<li>A clear description of your products and services</li>
+<li>Easy-to-find contact details</li>
+<li>List of current customers</li>
+<li>Customer testimonials</li>
+<li>Operating hours</li>
+<li>Links to social media profiles</li>
+</ul>
+<p>Many new business owners believe they need to blog regularly on their website. This is not required for all business owners. Blogging is a great way to show you’re an expert in your industry, but if you don’t believe it will help you get more sales, don’t do it.</p>
+<h3>Create a Google My Business Listing</h3>
+<p>Every business that has local customers gets a free <a href="https://fitsmallbusiness.com/google-my-business/">Google My Business (GMB) Listing</a>. This listing provides important information about your business in Google searches. As an at-home business, you can hide your home address in your GMB listing and list the city in which you operate.</p>
+<div id="attachment_574380" style="width: 795px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-574380" class="aligncenter size-full wp-image-934539 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20785%20484'%3E%3C/svg%3E" alt="Screenshot of Google My Business Listing Business Information" width="785" height="484" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information.jpg 785w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information-300x185.jpg 300w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information-768x474.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information-730x450.jpg 730w" data-lazy-sizes="(max-width: 785px) 100vw, 785px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information.jpg" /><noscript><img aria-describedby="caption-attachment-574380" class="aligncenter size-full wp-image-934539 img-fluid" style="border-radius: 15px; box-shadow: 0 0 25px #e5e5e5; max-width: 90%;" src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information.jpg" alt="Screenshot of Google My Business Listing Business Information" width="785" height="484" srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information.jpg 785w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information-300x185.jpg 300w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information-768x474.jpg 768w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/Screenshot_of_Google_My_Business_Listing_Business_Information-730x450.jpg 730w" sizes="(max-width: 785px) 100vw, 785px" /></noscript><p id="caption-attachment-574380" class="wp-caption-text">A Google My Business listing shows a business&#8217; important information like phone number, website, reviews, and photos.</p></div>
+<h3>Leverage Social Media Ads</h3>
+<p>There’s more to social media than gaining and engaging followers. It is also an effective platform to advertise your business and expand your market. With <a href="https://fitsmallbusiness.com/how-much-does-facebook-advertising-cost/">paid social media ads</a>, you make the most out of your investment with highly targeted advertisements. You also get to reach those in your audience who are most likely to purchase your products or services at a fraction of TV and radio advertising costs.</p>
+<p>Retargeting is a paid advertising technique, employed by social media platforms like Facebook, to help you reach your audience. Your ads are only shown to users who visited your site without purchasing. Users who are retargeted with display ads are 70% more likely to make a purchase on your website.</p>
+<p><a href="https://fitsmallbusiness.com/facebook-advertising/">Facebook</a> also offers <a href="https://www.facebook.com/business/help/164749007013531" target="_blank" rel="noopener ">Lookalike Audience</a> so you can reach new people who are likely to be interested in your service. The Lookalike algorithm targets people who are similar to your Facebook followers or to an audience that shares the same qualities, such as demographic information and interests.</p>
+<p>For example, a home-based massage service business can buy ads that target 30- to 55-year-olds living in a specific area with an interest in wellness. The ads may appear on your targets’ news feed and the right column of the page for optimal exposure.</p>
+<blockquote><p><img class="alignright wp-image-934534 size-full img-fluid" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20200'%3E%3C/svg%3E" alt="Richard Matharoo Founder RichardMatharoo.com" width="200" height="200" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px.jpg 200w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px-150x150.jpg 150w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px-45x45.jpg 45w" data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px.jpg" /><noscript><img class="alignright wp-image-934534 size-full img-fluid" src="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px.jpg" alt="Richard Matharoo Founder RichardMatharoo.com" width="200" height="200" srcset="https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px.jpg 200w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px-150x150.jpg 150w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2019/12/EditorialHeadshot_Richard_Matharoo_RichardMatharoo.com_200px-45x45.jpg 45w" sizes="(max-width: 200px) 100vw, 200px" /></noscript>“In terms of marketing, pick your strongest offer and place it in front of a targeted audience. A simple Facebook ad with the correct sales funnel solving your audience&#8217;s biggest challenge will skyrocket the speed and level of results you currently think possible.”</p>
+<p>&#8211; Richard Matharoo, Founder, <a href="http://richardmatharoo.com/" target="_blank" rel="noopener ">RichardMatharoo.com</a></p></blockquote>
+<h2>Frequently Asked Questions (FAQs) for Starting an At-home Business</h2>
+<p>This section includes the most frequently asked questions about how to start a small business at home.</p>
+<h3>How can I start my own home business with no money?</h3>
+<p>There are a couple different options to start a business if you have no money. The best option is to offer services that don’t require any additional costs for you to provide. What skills, software, or tools do you already have that allow you to offer a service for free? For example, if you already own a dog, maybe you can start an at-home pet sitting business. Or if you already possess design-related skills, maybe you can make graphics for a small business’ social media posts.</p>
+<p>Another option to start a business with no money is by running a crowdfunding campaign. Crowdfunding allows you to presell products before making them. For example, if you wanted to start an at-home bakery, but need to raise $3,000 for equipment, you could presell baked goods on a platform, like <a href="https://go.performi.com/goto/kickstarter?p=how-to-start-a-home-business" rel="noopener nofollow" class="fitlink" target="_blank">Kickstarter</a>, to raise funds. Before starting a crowdfunding campaign, it’s important to have a network of potential customers who are interested in buying your products.</p>
+<h3>What are the most successful small businesses?</h3>
+<p>Generally speaking, franchises tend to be the most successful small businesses. Franchises give you all the tools necessary to succeed, such as marketing materials, forms, and business systems. The downside to opening a franchise is the cost to start one, which can be more than starting a business from scratch.</p>
+<p>A popular at-home franchise is <a href="https://go.performi.com/goto/cruise-planners?p=how-to-start-a-home-business" rel="noopener nofollow" class="fitlink" target="_blank">Cruise Planners</a>. People who own this franchise connect interested customers with cruises and trips all over the world. Many customers don’t have the time or interest to research a cruise trip, so they will seek out a professional for help.</p>
+<h3>What are the requirements to start an at-home business?</h3>
+<p>The requirements to start a business depend on the type of business and its location (city, state). You can start some businesses without any limitations. However, we recommend all businesses file as a legal entity with the state in which they will be operating. This protects the business owner’s personal assets if a lawsuit were to occur against the business.</p>
+<p>In addition to registering the business as a legal entity, your state may require a certain license, for example, a cosmetology license if you’re styling hair in your home. Additionally, if you’re seeing customers in your home, you may need an at-home business license issued by your city.</p>
+<h2>Bottom Line</h2>
+<p>If you’re thinking of starting a small business from home, you must first determine your idea before you build its foundation, launch your business, and grow your customer base. After starting your at-home business, make wise financial decisions. Start small and think big. Once you have built up sufficient income, consider a move to a larger location.</p>
+</div><footer class="entry-footer"></footer></article><div class="row"><div class="col-md-8 offset-md-3"><div class="author-box"><h4 class="border-bottom pb-4 mb-4">About the Author</h4><div class="author-box-inner"><a href="https://fitsmallbusiness.com/author/bstocktonfitsmallbusiness-com/"><img width="127" height="127" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20127%20127'%3E%3C/svg%3E" class="avatar avatar-127 wp-image-927859" alt="" data-lazy-srcset="https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-45x45.jpg 45w, https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton.jpg 150w" data-lazy-sizes="(max-width: 127px) 100vw, 127px" data-lazy-src="https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-127x127.jpg" /><noscript><img width="127" height="127" src="https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-127x127.jpg" class="avatar avatar-127 wp-image-927859" alt="" srcset="https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-127x127.jpg 127w, https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton-45x45.jpg 45w, https://fitsmallbusiness.com/wp-content/uploads/2020/09/Blake-Stockton.jpg 150w" sizes="(max-width: 127px) 100vw, 127px" /></noscript></a><h5><a href="https://fitsmallbusiness.com/author/bstocktonfitsmallbusiness-com/">Blake Stockton</a></h5><p><a href="https://www.blakestockton.com" rel="nofollow">Blake Stockton</a> is a staff writer at Fit Small Business focusing on how to start brick-and-mortar and online businesses. He is a frequent guest lecturer at several undergraduate business and MBA classes at <a href="https://www.unf.edu" rel="nofollow">University of North Florida</a>. Prior to joining Fit Small Business, Blake consulted with over 700 small biz owners and assisted with starting and growing their businesses. </p><p class="links"><a href="https://www.twitter.com/blakecstockton" target="_blank"><span class="fit-icomoon fit-icomoon-twitter ">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<path fill="#444" d="M32 6.076c-1.177 0.522-2.443 0.875-3.771 1.034 1.355-0.813 2.396-2.099 2.887-3.632-1.269 0.752-2.674 1.299-4.169 1.593-1.198-1.276-2.904-2.073-4.792-2.073-3.626 0-6.565 2.939-6.565 6.565 0 0.515 0.058 1.016 0.17 1.496-5.456-0.274-10.294-2.888-13.532-6.86-0.565 0.97-0.889 2.097-0.889 3.301 0 2.278 1.159 4.287 2.921 5.465-1.076-0.034-2.088-0.329-2.974-0.821-0.001 0.027-0.001 0.055-0.001 0.083 0 3.181 2.263 5.834 5.266 6.437-0.551 0.15-1.131 0.23-1.73 0.23-0.423 0-0.834-0.041-1.235-0.118 0.835 2.608 3.26 4.506 6.133 4.559-2.247 1.761-5.078 2.81-8.154 2.81-0.53 0-1.052-0.031-1.566-0.092 2.905 1.863 6.356 2.95 10.064 2.95 12.076 0 18.679-10.004 18.679-18.68 0-0.285-0.006-0.568-0.019-0.849 1.283-0.926 2.396-2.082 3.276-3.398z"></path>
+</svg>
+</span> @blakecstockton</a></p></div></div><h2 class="screen-reader-text">Reader Interactions</h2><div class="entry-comments" id="comments"> <h4 class="underline custom-disclaimer">
+Comments (1) 
+<br>
+<span class="custom-disclaimer-text">
+<strong>Disclaimer:</strong> Reviews on FitSmallBusiness.com are the product of independent research by our writers, researchers, and editorial team. User reviews and comments are contributions from independent users not affiliated with FitSmallBusiness.com's editorial team. Banks, issuers, credit card companies, and other product & service providers are not responsible for any content posted on FitSmallBusiness.com. As such, they do not endorse or guarantee any posted comments or reviews.
+</span>
+
+</h4>
+<ol class="comment-list list-unstyled">
+<li class="comment byuser comment-author-alieucastro193 even thread-even depth-1" id="comment-1481034">
+<article id="article-comment-1481034">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Alieu Castro</span> </p>
+<p class="comment-meta"><time class="comment-time"><a class="comment-time-link">November 15, 2020 at 9:15 am</a></time></p> </header>
+<div class="comment-content">
+<p>This article is very helpful. Thank you</p>
+</div>
+<div class="comment-reply"><a rel="nofollow" class="comment-reply-login" href="https://fitsmallbusiness.com/login/?redirect_to=https%3A%2F%2Ffitsmallbusiness.com%2Fhow-to-start-a-home-business%2F">Log in to Reply</a></div>
+</article>
+</li>
+</ol></div> <div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Submit Your Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/how-to-start-a-home-business/#respond" style="display:none;">Cancel reply</a></small></h3><p style="margin-bottom:0;"><strong>You must be logged in to comment.</strong> Click a "Log in" button below to connect instantly and comment.</p><a href="https://fitsmallbusiness.com/login/?redirect_to=https%3A%2F%2Ffitsmallbusiness.com%2Fhow-to-start-a-home-business%2F" class="button button-invert button-center">LOG IN</a> </div>
+</div></div></main></div></div></div><footer class="site-footer footer-widgets">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-1 offset-md-1">
+<a href="https://fitsmallbusiness.com/" class="site-footer-logo"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Fit Small Business" class="d-block" data-lazy-src="https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/images/logo-2020-suitcase.png"><noscript><img src="https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/images/logo-2020-suitcase.png" alt="Fit Small Business" class="d-block"></noscript></a>
+</div>
+<div class="col-12 col-md-2">
+<section id="black-studio-tinymce-30" class="widget widget_black_studio_tinymce"><h4 class="widget-title widgettitle">Company</h4><div class="widget-wrap"><div class="textwidget"><ul>
+<li><a href="https://fitsmallbusiness.com/about-us/">About Us</a></li>
+<li><a href="https://fitsmallbusiness.com/editorial-policy/">Editorial Policy</a></li>
+<li><a href="https://fitsmallbusiness.com/press/">Press Inquiries</a></li>
+<li><a href="https://fitsmallbusiness.com/were-hiring/">Careers</a></li>
+</ul>
+</div></section>
+</div>
+<div class="col-12 col-md-2">
+<section id="be-social-widget-3" class="widget be-social-widget"><h4 class="widget-title widgettitle">Follow Us</h4><div class="widget-wrap"><p class="socials with-labels"><a href="https://www.facebook.com/FitSmallBusiness"><span class="fit-icomoon fit-icomoon-footer-facebook "><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="24 / symbols / facebook">
+<path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M4 2H20C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4C2 2.89543 2.89543 2 4 2ZM4 4V20H20V4H4ZM11.1331 12.0044H13V18H15V12.0044H16.9824V10.0044H15V9C15 8.44772 15.4477 8 16 8H17V6H16C14.3431 6 13 7.34315 13 9V10.0044H11.1331V12.0044Z" fill="black" />
+</g>
+</svg>
+</span> <span class="label">Facebook</span></a> <a href="https://twitter.com/FitSmallBiz"><span class="fit-icomoon fit-icomoon-footer-twitter "><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="24 / symbols / twitter">
+<path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M21.1195 4.50827L22.5343 4.67349L21.8983 5.948C21.5882 6.56953 21.2778 7.19105 20.967 7.81258C20.9302 7.94422 20.8654 8.05962 20.7697 8.20987C20.7296 8.27265 20.5929 8.47236 20.5865 8.48194C20.5504 8.53608 20.5237 8.57878 20.5045 8.61299V11.0015C20.5045 17.1135 14.5895 20.9974 9.00354 20.9974C7.86051 20.9974 6.99207 20.9427 5.99765 20.7257C4.36115 20.3685 3.14327 19.6587 2.58597 18.418L2.01221 17.1407L3.40659 17.0124C4.66801 16.8964 5.76169 16.6561 6.60159 16.3343C4.29577 15.9635 3.0036 14.9508 3.0036 13.0489V12.0489H4.0036C4.22331 12.0489 4.42143 12.0311 4.59854 11.9983C2.868 10.9636 2.00122 9.30379 2.00122 7.00152C2.00103 6.9034 2.00103 6.90339 2.00044 6.79847C1.99394 5.63803 2.05627 5.01797 2.37395 4.22659C2.57754 3.71941 2.87183 3.24988 3.2679 2.81967L4.02251 2L4.75617 2.83847C7.17394 5.60161 9.56395 7.27795 12.0042 7.48072C12.0146 4.93105 13.9415 3.00152 16.5043 3.00152C17.6991 3.00152 18.7828 3.45501 19.6345 4.27273C20.1006 4.36851 20.5957 4.44709 21.1195 4.50827ZM18.9086 6.16202L18.6021 6.0926L18.3904 5.86028C17.8785 5.29855 17.2359 5.00152 16.5043 5.00152C15.0414 5.00152 14.0041 6.04391 14.0041 7.50152C14.0041 7.73974 13.998 7.88942 13.9683 8.08615C13.8499 8.87116 13.4096 9.50152 12.5041 9.50152C9.50607 9.50152 6.80136 7.89542 4.16389 5.15228C4.02792 5.56561 3.99595 5.99047 4.00041 6.78727C4.00101 6.89384 4.00101 6.89384 4.00122 7.00152C4.00122 9.04953 4.83093 10.1698 6.79547 10.7942L7.49255 11.0158V11.7472C7.49255 12.6342 6.65222 13.4691 5.42268 13.8431C5.98631 14.2708 7.139 14.5015 9.00389 14.5015H10.0039V15.5015C10.0039 16.9343 8.35762 18.0561 5.87075 18.6419C6.68178 18.8903 7.76166 18.9974 9.00354 18.9974C13.618 18.9974 18.5045 15.7888 18.5045 11.0015V8.50152C18.5045 8.20774 18.5897 7.95273 18.7311 7.68759C18.7865 7.58393 18.8474 7.48509 18.9225 7.37237C18.9367 7.35115 18.9892 7.27426 19.0309 7.21279L19.1101 7.05429C19.2386 6.79745 19.3669 6.54061 19.4952 6.28377C19.2958 6.24599 19.1003 6.20541 18.9086 6.16202Z" fill="black" />
+</g>
+</svg>
+</span> <span class="label">Twitter</span></a> <a href="https://www.linkedin.com/company/fitsmallbusiness/"><span class="fit-icomoon fit-icomoon-footer-linkedin "><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="24 / symbols / linkedin">
+<path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M4 2H20C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4C2 2.89543 2.89543 2 4 2ZM4 4V20H20V4H4ZM13 9C12.4823 9 11.9353 9.15826 11.4521 9.45215L11 9H10V16H12V12C12 11.4243 12.594 11 13 11H14C14.406 11 15 11.4243 15 12V16H17V12C17 10.1472 15.394 9 14 9H13ZM8 8C8.55228 8 9 7.55228 9 7C9 6.44772 8.55228 6 8 6C7.44772 6 7 6.44772 7 7C7 7.55228 7.44772 8 8 8ZM7 9V16H9V9H7Z" fill="black" />
+</g>
+</svg>
+</span> <span class="label">LinkedIn</span></a> <a href="https://www.youtube.com/channel/UCDqF8Nmn7YDbZvLc4ANxjQA"><span class="fit-icomoon fit-icomoon-footer-youtube "><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="24 / symbols / youtube">
+<path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M22.0247 18.1282C22.7081 16.9571 23 15.0689 23 11.9972C23 8.93778 22.7108 7.06048 22.0202 5.85803C21.3281 4.60936 20.5073 4.21303 18.8783 4.1179C17.7662 4.04252 15.0023 4 12.0027 4C8.99661 4 6.23145 4.04251 5.111 4.11849C3.49112 4.21326 2.67011 4.61047 1.97193 5.8626C1.29138 7.0609 1 8.94737 1 12.0084C1 15.052 1.29279 16.948 1.97791 18.1424C2.66701 19.3784 3.47493 19.7708 5.1086 19.8855C6.28276 19.9543 9.20442 20 12.0027 20C14.7946 20 17.7149 19.9542 18.8783 19.8863C20.527 19.7708 21.3348 19.3778 22.0247 18.1282ZM18.7524 6.11391C19.7714 6.17346 19.9603 6.26505 20.2833 6.84964C20.7535 7.664 21 9.25771 21 12.0084C21 14.7383 20.7522 16.3408 20.2855 17.141C19.9614 17.7274 19.7738 17.8187 18.7501 17.8904C17.6489 17.9547 14.757 18 12.0027 18C9.24213 18 6.34874 17.9547 5.23703 17.8897C4.22601 17.8186 4.03565 17.7262 3.71873 17.1578C3.24886 16.3385 3 14.727 3 11.9972C3 9.26899 3.24754 7.66639 3.7149 6.84342C4.03675 6.26627 4.22844 6.17353 5.23709 6.11449C6.30508 6.04211 9.04424 6 12.0027 6C14.9547 6 17.6926 6.04212 18.7524 6.11391ZM10 9L15 12L10 15V9Z" fill="black" />
+</g>
+</svg>
+</span> <span class="label">YouTube</span></a></p></section>
+</div>
+<div class="col-12 col-md-2">
+<section id="black-studio-tinymce-75" class="widget widget_black_studio_tinymce"><h4 class="widget-title widgettitle">Partners</h4><div class="widget-wrap"><div class="textwidget"><ul>
+<li><a href="https://fitsmallbusiness.com/about-us/#nf-form-1642-cont">Work With Us</a></li>
+<li><a href="https://fitsmallbusiness.com/media-kit/">Media Kit</a></li>
+</ul>
+</div></section>
+</div>
+<div class="col-12 col-md-4">
+<section id="black-studio-tinymce-38" class="widget widget_black_studio_tinymce"><h4 class="widget-title widgettitle">Contact Us</h4><div class="widget-wrap"><div class="textwidget"><p><i class="icon-pin"></i> 355 Lexington Avenue, 18th Floor<br />
+New York, NY 10017</p>
+<p><i class="icon-email"></i> info@fitsmallbusiness.com</p>
+<p><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" style="border: 0;" alt="Fit Small Business BBB Business Review" data-lazy-src="https://seal-newyork.bbb.org/seals/blue-seal-200-42-bbb-155013.png" /><noscript><img src="https://seal-newyork.bbb.org/seals/blue-seal-200-42-bbb-155013.png" style="border: 0;" alt="Fit Small Business BBB Business Review" /></noscript></p>
+</div></section>
+</div>
+</div>
+<div class="row mt-3">
+<div class="col-12 col-md-4 offset-md-2">
+<div id="colophon">&copy Fit Small Business 2020</div>
+</div>
+<div class="col-12 col-md-2">
+<section id="black-studio-tinymce-39" class="widget widget_black_studio_tinymce"><div class="textwidget"><p><a href="https://fitsmallbusiness.com/california-consumer-privacy-act/">California Privacy Rights</a><br />
+<a href="https://fitsmallbusiness.com/privacy-policy/">Privacy</a></p>
+</div></section>
+</div>
+<div class="col-12 col-md-4">
+<section id="black-studio-tinymce-76" class="widget widget_black_studio_tinymce"><div class="widget-wrap"><div class="textwidget"><p><a href="https://fitsmallbusiness.com/terms-of-use/">Terms</a><br />
+<a href="https://fitsmallbusiness.com/sitemap/">Sitemap</a></p>
+</div></div></section>
+</div>
+</div>
+</div>
+</footer>
+<div class="modal fade" id="fit-advertiser-disclosure" tabindex="-1" role="dialog" aria-labelledby="fit-advertister-disclosure-label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<h5 class="modal-title" id="fit-advertister-disclosure-label">Advertiser Disclosure</h5>
+<p>At Fit Small Business, our mission is to deliver the best answer to people’s questions. The best answers often include products and services. We sometimes make money from our advertising partners when a reader clicks on a link, fills out a form or application, or purchases a product or service. We only partner with companies we believe offer the best products and services for small business owners. And, because we value transparency, we’ve chosen to provide a <a href="https://fitsmallbusiness.com/our-partners/">list of our partners</a>.</p>
+<p>Furthermore, Fit Small Business never allows partners to pay us to guarantee placement within an article that isn’t clearly marked as sponsored and companies cannot pay us for favorable (or unfavorable) reviews or ratings. </p>
+<p>Read more about our commitment to editorial independence <a href="https://fitsmallbusiness.com/editorial-policy/">here</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</div> <style id="fit-omv2-inline-styles" type="text/css">
+		#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468 .fit-omv2-headline{
+				 font-size: 42px;		}
+		#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468 .fit-omv2-content-content {
+				 font-size: 22px;		}
+		#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468 .fit-omv2-button,
+		#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468 .fit-omv2-email-submit{
+				 font-size: 16px;		}
+		#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468  .fit-omv2-headline{
+								}
+		#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468  .fit-omv2-content-content{
+								}
+		#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468  .fit-omv2-button,
+		#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468  .fit-omv2-email-submit{
+						}
+
+
+		/* Background Color */
+					
+			#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468.fit-omv2.fit-omv2-desktop .fit-omv2-modal,
+			body:not(.wp-admin) #fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468.fit-omv2.fit-omv2-mobile .fit-omv2-modal,
+			body.wp-admin #fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468.fit-omv2.fit-omv2-mobile .fit-omv2-modal,
+			body.wp-admin #fit_omv2_mobile_smartphone_preview_metabox .inside #fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468.fit-omv2.fit-omv2-mobile.fit-omv2-campaign-popup-click .fit-omv2-modal-inner {
+				background-color: rgba(255, 255, 255, 1);
+			}
+		
+		/* Button Color */
+					#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468.fit-omv2.fit-omv2-desktop .fit-omv2-form .fit-omv2-email-submit, 
+			#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468.fit-omv2.fit-omv2-mobile .fit-omv2-email-submit, 
+			#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468.fit-omv2.fit-omv2-desktop .fit-omv2-button-yes, 
+			#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468.fit-omv2.fit-omv2-mobile .fit-omv2-button-yes, 
+			#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468.fit-omv2.fit-omv2-desktop .fit-omv2-form .fit-omv2-email-submit, 
+			#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468.fit-omv2.fit-omv2-mobile .fit-omv2-email-submit, 
+			#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468.fit-omv2.fit-omv2-desktop .fit-omv2-button-yes, 
+			#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468.fit-omv2.fit-omv2-mobile .fit-omv2-button-yes {
+				background-color: rgba(211, 70, 0, 1);
+				border-color: rgba(211, 70, 0, 1);
+				/* box-shadow: 0 4px 0px 0px rgba(211, 70, 0, 0.7); */
+			}
+		
+		/* Text Color */
+					#fit-omv2-desktop-614468.fit-omv2.fit-omv2-desktop.fit-omv2-614468,
+			#fit-omv2-mobile-614468.fit-omv2.fit-omv2-mobile.fit-omv2-614468{
+				color: rgba(0, 0, 0, 1);	
+			}
+			</style>
+<div id="fit-omv2-desktop-614468" class="fit-omv2 fit-omv2-614468 fit-omv2-desktop fit-omv2-cta-email fit-omv2-campaign-popup fit-omv2-buttons-email-original fit-omv2-modal-sidebar-none" data-campaign-id="614468" data-campaign-name="Email Capture Popup &#8211; Starting a Business eBook" data-campaign-type="popup" data-cta-type="email" data-desktop-disabled="0">
+<div class="fit-omv2-overlay"></div>
+<div class="fit-omv2-modal">
+<div class="fit-omv2-modal-sidebar">
+<div class="fit-omv2-modal-sidebar-icon-email">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+<path fill-rule="evenodd" d="M21,7.38246601 L21,5 L3,5 L3,7.38199365 L12.0000224,11.8824548 L21,7.38246601 Z M21,9.61853399 L11.9999776,14.1185452 L3,9.61810635 L3,19 L21,19 L21,9.61853399 Z M3,3 L21,3 C22.1045695,3 23,3.8954305 23,5 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,5 C1,3.8954305 1.8954305,3 3,3 Z" />
+</svg>
+</div>
+</div>
+<div class="fit-omv2-modal-inner">
+<span class="fit-omv2-close">&times;</span>
+<div class="fit-omv2-text">
+<div class="fit-omv2-image-before-headline">
+</div>
+<div class="fit-omv2-headline">
+FREE Ebook: How To Start Your Business
+</div>
+<div class="fit-omv2-content">
+<div class="fit-omv2-image-before-content">
+</div>
+<div class="fit-omv2-content-content">
+Step-by-step blueprint that shows you how to go from idea to launch in 30 days
+</div>
+<div class="fit-omv2-image-after-content">
+</div>
+</div>
+</div>
+<div class="fit-omv2-form">
+<div class="fit-omv2-image-left-of-form">
+</div>
+<div class="fit-omv2-buttons fit-omv2-buttons-email">
+<div id="fit-omv2-email-form-desktop">
+<div class="invalid-feedback">This email address is invalid.</div>
+<label for="email">Email</label>
+<input type="email" class="fit-omv2-email-email" name="email" placeholder="Email Address">
+<button id="fit-omv2-desktop-email-submit-614468" type="submit" class="fit-omv2-email-submit" name="submit" value="submit">Download My Ebook</button>
+</div>
+</div>
+<div class="fit-omv2-image-right-of-form">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="fit-omv2-mobile-614468" class="fit-omv2 fit-omv2-614468 fit-omv2-mobile fit-omv2-cta-email fit-omv2-campaign-popup fit-omv2-buttons-email-original fit-omv2-modal-sidebar-none" data-campaign-id="614468" data-campaign-name="Email Capture Popup &#8211; Starting a Business eBook" data-campaign-type="popup" data-cta-type="email">
+<div class="fit-omv2-overlay"></div>
+<div class="fit-omv2-modal">
+<div class="fit-omv2-modal-sidebar">
+<div class="fit-omv2-modal-sidebar-icon-email">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+<path fill-rule="evenodd" d="M21,7.38246601 L21,5 L3,5 L3,7.38199365 L12.0000224,11.8824548 L21,7.38246601 Z M21,9.61853399 L11.9999776,14.1185452 L3,9.61810635 L3,19 L21,19 L21,9.61853399 Z M3,3 L21,3 C22.1045695,3 23,3.8954305 23,5 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,5 C1,3.8954305 1.8954305,3 3,3 Z" />
+</svg>
+</div>
+</div>
+<div class="fit-omv2-modal-inner">
+<span class="fit-omv2-close">&times;</span>
+<div class="fit-omv2-flex">
+<div class="fit-omv2-modal-text">
+<div class="fit-omv2-headline">
+FREE Ebook: How To Start Your Business
+</div>
+<div class="fit-omv2-content">
+<div class="fit-omv2-content-content">
+</div>
+</div>
+</div>
+<div class="fit-omv2-buttons fit-omv2-buttons-email">
+<div id="fit-omv2-email-form-mobile">
+<label for="email">Email</label>
+<input type="email" class="fit-omv2-email-email" name="email" placeholder="Email Address">
+<button id="fit-omv2-mobile-email-submit-614468" type="submit" class="fit-omv2-email-submit" name="submit" value="submit">Download My Ebook</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://ak.sail-horizon.com/spm/spm.v1.min.js"></script>
+<script>Sailthru.init({ customerId: 'fb88d73119141455705c501f7c1bbdee', isCustom: true });</script><div class="fit-social-share">
+<a href="https://www.facebook.com/dialog/feed?app_id=140586622674265&amp;display=popup&amp;caption=Many+popular+businesses%2C+such+as+Microsoft+and+Apple%2C+started+their+journey+in+a+garage.+If+you+have+similar+aspirations%2C+start+the+process+by+learning+how+to+start+a+small+business+at+home.+The+process+is+similar+to+opening+a+brick-and-mortar+business%E2%80%94sometimes+with+lower+startup+costs.+Some+of+the+steps+are+different%2C+such+as+the+need...&amp;link=https%3A%2F%2Ffitsmallbusiness.com%2Fhow-to-start-a-home-business%2F" class="fit-ssw-link fit-ssw-facebook" onclick="__gaTracker('send','event','Share Icons','facebook'); return sharepop('https://www.facebook.com/dialog/feed?app_id=140586622674265&display=popup&caption=Many+popular+businesses%2C+such+as+Microsoft+and+Apple%2C+started+their+journey+in+a+garage.+If+you+have+similar+aspirations%2C+start+the+process+by+learning+how+to+start+a+small+business+at+home.+The+process+is+similar+to+opening+a+brick-and-mortar+business%E2%80%94sometimes+with+lower+startup+costs.+Some+of+the+steps+are+different%2C+such+as+the+need...&link=https%3A%2F%2Ffitsmallbusiness.com%2Fhow-to-start-a-home-business%2F','Share on Facebook','580','400')" title="Share on Facebook" target=_share>
+<span class="fit_ssw_icon fit_ssw_facebook_icon">
+<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" xml:space="preserve">
+<rect width="100%" height="100%" fill="rgb(59, 89, 152)" />
+<path transform="matrix(0.032,0,0,0.032,6,0)" stroke="none" style="fill:#ffffff" d="M 324 0 C 112 0 121 226 121 234 C 121 231 121 370 121 370 L 0 370 L 0 621 L 121 621 L 121 1000 L 377 1000 L 376 621 L 503 621 L 565 371 L 377 371 L 376 276 C 376 276 377 205 456 204 L 502 204 L 565 0 L 324 0 z" />
+</svg> </span>
+</a>
+<a href="https://twitter.com/intent/tweet?text=Many+popular+businesses%2C+such+as+Microsoft+and+Apple%2C+started+their+journey+in+a+garage.+If+you+have+similar+aspirations%2C+start+the+process+by+learning+how+to+start+a+small+business+at+home.+The+process+is+similar+to+opening+a+brick-and-mortar+business%E2%80%94sometimes+with+lower+startup+costs.+Some+of+the+steps+are+different%2C+such+as+the+need...&amp;url=https://fitsmallbusiness.com/how-to-start-a-home-business/" class="fit-ssw-link fit-ssw-twitter" onclick="__gaTracker('send','event','Share Icons','twitter'); return sharepop('https://twitter.com/intent/tweet?text=Many+popular+businesses%2C+such+as+Microsoft+and+Apple%2C+started+their+journey+in+a+garage.+If+you+have+similar+aspirations%2C+start+the+process+by+learning+how+to+start+a+small+business+at+home.+The+process+is+similar+to+opening+a+brick-and-mortar+business%E2%80%94sometimes+with+lower+startup+costs.+Some+of+the+steps+are+different%2C+such+as+the+need...&url=https://fitsmallbusiness.com/how-to-start-a-home-business/','Share on Twitter','500','250')" title="Share on Twitter" target=_share>
+<span class="fit_ssw_icon fit_ssw_twitter_icon">
+<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" xml:space="preserve">
+<rect width="100%" height="100%" fill="rgb(29, 161, 242)" />
+<path transform="matrix(0.032,0,0,0.032,0,3)" stroke="none" style="fill:#ffffff" d="M 914 156 L 1000 101 L 898 101 L 898 101 L 970 0 L 866 54 C 866 54 866 54 866 54 C 834 21 788 0 737 0 C 639 0 559 79 559 177 C 559 192 561 207 565 221 C 565 221 565 221 565 221 C 439 235 204 22 204 22 C 204 22 170 196 306 309 C 306 309 231 315 146 191 C 146 191 129 315 242 422 C 209 414 169 398 129 366 C 129 366 147 471 231 517 C 185 550 109 577 0 533 C 0 533 88 680 300 722 C 604 781 958 602 892 265 C 907 239 916 209 916 177 C 915 170 915 163 914 156 z M 745 134 C 724 134 707 117 707 96 C 707 75 724 59 745 59 C 766 59 783 75 783 96 C 783 117 766 134 745 134 z" />
+</svg> </span>
+</a>
+<a href="javascript:window.print()" class="fit-ssw-link fit-ssw-print" onclick="__gaTracker('send','event','Share Icons','print'); shareprint(); return false;" title="Print this Page">
+<span class="fit_ssw_icon fit_ssw_print_icon">
+<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" xml:space="preserve">
+<rect width="100%" height="100%" fill="rgb(115, 138, 141)" />
+<path transform="matrix(0.032,0,0,0.032,0,0)" stroke="none" style="fill:#ffffff" d="M 0 295 L 0 753 L 181 753 L 181 593 L 818 593 L 818 753 L 1000 753 L 1000 295 L 0 295 z M 898 438 C 876 438 857 420 857 397 C 857 374 876 356 898 356 C 921 356 939 374 939 397 C 939 420 921 438 898 438 z M 273 257 L 726 257 L 763 257 L 763 0 L 236 0 L 236 257 z M 726 631 L 273 631 L 236 631 L 236 966 L 457 966 L 542 966 L 763 966 L 763 631 L 726 631 z M 670 884 L 329 884 L 329 846 L 670 846 L 670 884 z M 670 808 L 329 808 L 329 770 L 670 770 L 670 808 z M 670 732 L 329 732 L 329 694 L 670 694 L 670 732 z" />
+</svg> </span>
+</a>
+<a href="mailto:?subject=How%20to%20Start%20a%20Small%20Business%20at%20Home&amp;body=Check out this article from Fit Small Business%0D%0A%0D%0AMany%20popular%20businesses%2C%20such%20as%20Microsoft%20and%20Apple%2C%20started%20their%20journey%20in%20a%20garage.%20If%20you%20have%20similar%20aspirations%2C%20start%20the%20process%20by%20learning%20how%20to%20start%20a%20small%20business%20at%20home.%20The%20process%20is%20similar%20to%20opening%20a%20brick-and-mortar%20business%E2%80%94sometimes%20with%20lower%20startup%20costs.%20Some%20of%20the%20steps%20are%20different%2C%20such%20as%20the%20need...%0D%0A%0D%0Ahttps://fitsmallbusiness.com/how-to-start-a-home-business/" class="fit-ssw-link fit-ssw-email" onclick="__gaTracker('send','event','Share Icons','email');" title="Email this page">
+<span class="fit_ssw_icon fit_ssw_email_icon">
+<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" xml:space="preserve">
+<rect width="100%" height="100%" fill="rgb(132, 132, 132)" />
+<path transform="matrix(0.032,0,0,0.032,0,5)" stroke="none" style="fill:#ffffff" d="M 500 0 L 0 0 L 0 79 L 500 466 L 1000 79 L 1000 0 z M 500 500 C 492 500 485 497 479 493 L 0 121 L 0 666 L 1000 666 L 1000 121 L 520 493 C 514 497 507 500 500 500 z" />
+</svg> </span>
+</a>
+</div>
+<script type="text/javascript">
+		function shareprint() {
+			setTimeout(
+					function () {
+						window.print();
+					}, 100
+			);
+		}
+	</script>
+<script type="text/javascript">
+		function sharepop(url, title, w, h) {
+
+			// Fixes dual-screen position                         Most browsers      Firefox
+			var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : window.screenX;
+			var dualScreenTop = window.screenTop != undefined ? window.screenTop : window.screenY;
+
+			var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+			var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+			var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+			var top = ((height / 2) - (h / 2)) + dualScreenTop;
+			var newWindow = window.open(url, title, 'width=' + w + ', height=' + h + ', left=' + left + ', top=' + top);
+			if (window.focus) {
+				newWindow.focus()
+			}
+			return false;
+		}
+	</script>
+<link rel='preload' as='style' onload="this.onload=null;this.rel='stylesheet'" id='fit-social-share-style' href='https://fitsmallbusiness.com/wp-content/plugins/fit-social-share/css/style.css?ver=5.4.4' type='text/css' media='all' /> <script type="text/javascript">
+	// `rel=preload` Polyfill for <link> elements
+	var DOMTokenListSupports = function (tokenList, token) {
+		if (!tokenList || !tokenList.supports) {
+			return;
+		}
+		try {
+			return tokenList.supports(token);
+		}
+		catch (e) {
+			if (e instanceof TypeError) {
+				// console.log("The DOMTokenList doesn't have a supported tokens list");
+			}
+			else {
+				// console.error("That shouldn't have happened");
+			}
+		}
+	};
+	var linkSupportsPreload = DOMTokenListSupports(document.createElement('link').relList, 'preload');
+	if (!linkSupportsPreload) {
+		// Dynamically load the things that relied on preload.
+		var links = document.getElementsByTagName('link');
+		for (var i = 0; i < links.length; i++) {
+			var link = links[i];
+			// qualify links to those with rel=preload and as=style attrs
+			if (link.rel === 'preload' && link.getAttribute('as') === 'style') {
+				// prevent re-running on link
+				link.setAttribute('onload', '');
+				link.setAttribute('rel', 'stylesheet');
+			}
+		}
+	}
+	</script>
+<div id="fit-header-subscribe-modal" class="modal" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+<div class="modal-content">
+<div class="modal-body">
+<div class="px-lg-5 mx-lg-5 text-center">
+<h5 class="modal-title text-center">Join Fit Small Business</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<form id="fit-header-subscribe-form" action="https://fitsmallbusiness.com/wp-admin/admin-ajax.php" method="post">
+<div class="px-lg-5 mx-lg-5">
+<p class="text-center"><em>Sign up to receive more well-researched small business articles and topics in your inbox, personalized for you. Select the newsletters you’re interested in below.</em></p>
+<div class="row">
+<div class="col-12 col-md-6">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Accounting" id="fit_header_checkbox_Accounting" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_Accounting">
+Accounting
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Ecommerce" id="fit_header_checkbox_Ecommerce" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_Ecommerce">
+Ecommerce
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Marketing" id="fit_header_checkbox_Marketing" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_Marketing">
+Marketing
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Sales" id="fit_header_checkbox_Sales" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_Sales">
+Sales
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Financing" id="fit_header_checkbox_Financing" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_Financing">
+Financing
+</label>
+</div>
+</div>
+<div class="col-12 col-md-6">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - HR" id="fit_header_checkbox_HumanResources" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_HumanResources">
+Human Resources
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Retail" id="fit_header_checkbox_Retail" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_Retail">
+Retail
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Real Estate" id="fit_header_checkbox_RealEstateAgents" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_RealEstateAgents">
+Real Estate (Agents)
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Real Estate Investing" id="fit_header_checkbox_RealEstateInvesting" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_RealEstateInvesting">
+Real Estate Investing
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="Newsletter - Starting a Business" id="fit_header_checkbox_StartingaBusiness" name="fit_header_list_checkbox[]">
+<label class="form-check-label" for="fit_header_checkbox_StartingaBusiness">
+Starting a Business
+</label>
+</div>
+</div>
+</div>
+<div class="form-group text-center mt-3">
+<label for="fit_header_email" class="sr-only">Your Email Address</label>
+<input type="email" name="fit_header_email" class="form-control" placeholder="Your Email Address..." required />
+</div>
+</div>
+<div class="text-center">
+<input type="hidden" name="action" value="fit_header_subscribe" />
+<input type="hidden" id="fit_header_subscribe_nonce" name="fit_header_subscribe_nonce" value="12aba6de14" /><input type="hidden" name="_wp_http_referer" value="/how-to-start-a-home-business/" /> <input type="submit" class="button" value="Sign Me Up" />
+</div>
+</form>
+<div class="modal-response text-center mx-5"></div>
+</div>
+</div>
+</div>
+</div>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/assets/js/popper.min.js?ver=0.4.8'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/assets/js/bootstrap.min.js?ver=0.4.8'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/assets/js/jquery.matchHeight.min.js?ver=0.4.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var global = {"ajax_url":"https:\/\/fitsmallbusiness.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/assets/js/source/global.js?ver=0.4.8'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/assets/js/track-stripped.min.js?ver=0.4.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fsb_comments = {"ajax_url":"https:\/\/fitsmallbusiness.com\/wp-admin\/admin-ajax.php","post_id":"164792","security":"fcc7657c9d","status":"","redirect":"https:\/\/fitsmallbusiness.com\/wp-login.php?redirect_to=https%3A%2F%2Ffitsmallbusiness.com%2Fhow-to-start-a-home-business%2F"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/themes/fit-fresh-theme/assets/js/comment-infinite-load.min.js?ver=0.4.8'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-includes/js/wp-embed.min.js?ver=5.4.4'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/plugins/fit-campaign-plugin/assets/js/dist/ouibounce.min.js?ver=0.6.8'></script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/plugins/fit-campaign-plugin/assets/js/dist/jquery.stickybits.min.js?ver=0.6.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fit_campaigns_ajax = {"ajax_url":"https:\/\/fitsmallbusiness.com\/wp-admin\/admin-ajax.php","context":"live","aggressive":"true","post_id":"164792","post_category":"Starting a Business","min_width":"320","desktop_triggers":["exit"]};
+/* ]]> */
+</script>
+<script type='text/javascript' defer src='https://fitsmallbusiness.com/wp-content/plugins/fit-campaign-plugin/assets/js/dist/fit-campaigns-public.min.js?ver=0.6.8'></script>
+<script>window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }};
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                return;
+                            }
+
+                           if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                return;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+
+                observer.observe(b, config);
+            }
+        }, false);</script><script data-no-minify="1" async src="https://fitsmallbusiness.com/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script></body></html>
